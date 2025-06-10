@@ -1,0 +1,81 @@
+{
+    "timestamp": "2025-06-02T17:24:11.850711",
+    "strategy_mode": "CALL_PUT",
+    "active_options": {
+        "GBPNZD": [
+            {
+                "id": 12703564583,
+                "type": "CALL",
+                "pair": "GBPNZD",
+                "size": 20000,
+                "entry_time": "2025-06-02T17:19:26.187510",
+                "expiry_time": "2025-06-02T17:24:26.187512",
+                "rsi": 29.82
+            }
+        ]
+    },
+    "last_signal_time": {
+        "CADCHF": "2025-05-30T17:48:49.905564",
+        "GBPAUD": "2025-06-02T14:52:03.958656",
+        "NZDUSD": "2025-06-02T14:27:42.174102",
+        "EURUSD": "2025-06-02T15:16:32.324543",
+        "EURCAD": "2025-06-02T14:20:18.592200",
+        "GBPCAD": "2025-06-02T17:16:25.473283",
+        "GBPUSD": "2025-06-02T13:55:26.416608",
+        "EURNZD": "2025-05-30T17:47:05.453627",
+        "EURGBP": "2025-06-02T12:08:05.145380",
+        "AUDCHF": "2025-06-02T15:36:02.789412",
+        "GBPJPY": "2025-06-02T15:06:04.079220",
+        "USDJPY": "2025-06-02T17:20:56.385853",
+        "GBPCHF": "2025-06-02T15:34:34.197457",
+        "GBPNZD": "2025-06-02T17:19:26.187555"
+    },
+    "consecutive_losses": {
+        "GBPUSD": 2,
+        "EURCAD": 2,
+        "GBPCAD": 2,
+        "GBPJPY": 2,
+        "GBPAUD": 1,
+        "EURUSD": 1,
+        "GBPCHF": 1,
+        "AUDCHF": 1
+    },
+    "daily_lockouts": {
+        "GBPUSD": true,
+        "EURCAD": true,
+        "GBPJPY": true,
+        "GBPCAD": true
+    },
+    "wins": {
+        "GBPUSD": 1
+    },
+    "losses": {
+        "CADCHF": 2,
+        "GBPAUD": 3,
+        "EURUSD": 4,
+        "EURCAD": 3,
+        "GBPCAD": 4,
+        "GBPUSD": 5,
+        "EURNZD": 1,
+        "EURGBP": 3,
+        "AUDCHF": 3,
+        "GBPJPY": 2,
+        "GBPCHF": 1
+    },
+    "ties": {},
+    "total_profit": -345600.0,
+    "daily_profit": -380800,
+    "monthly_profits": {
+        "2025-05": -1800.0
+    },
+    "monthly_starting_capital": {
+        "2025-05": 10000,
+        "2025-06": 19670
+    },
+    "monthly_stop_loss": false,
+    "stop_loss_triggered_month": null,
+    "absolute_stop_loss_activated": false,
+    "min_capital": 9600,
+    "last_date": "2025-06-02",
+    "current_month": "2025-06"
+}

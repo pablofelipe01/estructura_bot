@@ -1,0 +1,3 @@
+RSI_INVERTED_v2.0
+Reset date: 2025-06-05T06:33:34.541074
+Logic: PUT on oversold, CALL on overbought
