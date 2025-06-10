@@ -177,3 +177,5 @@ Si encuentras bugs o tienes sugerencias, por favor abre un issue o envía un pul
 ## 📄 Licencia
 
 Este proyecto es solo para fines educativos. Úsalo bajo tu propio riesgo.# ai-trading-bot
+
+Mejorando el esquema
