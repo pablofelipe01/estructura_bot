@@ -1,5 +1,8 @@
 FROM python:3.10-slim
 
+# Instalar git para poder instalar desde GitHub
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Copiar requirements.txt primero para aprovechar cache de Docker
