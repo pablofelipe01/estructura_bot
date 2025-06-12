@@ -1,12 +1,12 @@
-# config.py
-# Configuración de la estrategia RSI para IQ Option
+# config_fixed.py
+# Configuración corregida de la estrategia RSI para IQ Option
 
 # Credenciales IQ Option
 IQ_EMAIL = "pablofelipe@me.com"
-IQ_PASSWORD = "DaMa0713"
+IQ_PASSWORD = "DaMa0713"  # Completar con tu contraseña
 ACCOUNT_TYPE = "PRACTICE"  # "PRACTICE" o "REAL"
 
-# Pares de divisas a operar (lista ajustada del algoritmo)
+# Pares de divisas a operar (SIN DUPLICADOS)
 FOREX_PAIRS = [
     "EURCAD", "GBPCHF", "EURJPY", "GBPAUD", "GBPCAD"
 ]
@@ -27,7 +27,7 @@ MONTHLY_STOP_LOSS_PERCENT = 0.40   # 40% de pérdida mensual
 # Tamaño de posición
 POSITION_SIZE_PERCENT = 0.05  # 5% del capital disponible
 MIN_POSITION_SIZE = 1      # Mínimo $5,000
-MAX_POSITION_SIZE = 10     # Máximo $10,000
+MAX_POSITION_SIZE = 10    # Máximo $10,000
 
 # Control de operaciones
 MIN_TIME_BETWEEN_SIGNALS = 60  # Minutos entre señales del mismo par (1 hora)
@@ -39,19 +39,19 @@ MAX_CONSECUTIVE_LOSSES = 999   # Pérdidas consecutivas antes de bloquear el par
 # - "-OTC": Over The Counter, disponible 24/7
 # - "-op": Opción estándar (a veces usado para diferenciar de CFDs)
 ALLOWED_ASSET_SUFFIXES = ["-OTC", "-op", ""]  # Incluir cadena vacía para versión estándar
-PRIORITY_SUFFIX = None  # None = no priorizar, usar el primero disponible
+PRIORITY_SUFFIX = None  # None = preferir OTC para mayor estabilidad
 
 # Modo de estrategia
 STRATEGY_MODE = "CALL_PUT"  # Estrategia original con CALL y PUT
 
 # Configuración de logging
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "INFO"  # DEBUG para más detalles
 LOG_FILE = "iqoption_strategy.log"
 
 # Configuración de caché y timeouts
 OPCODE_CACHE_TTL = 3600  # 1 hora
 ASSET_STATUS_CACHE_TTL = 300  # 5 minutos
-API_TIMEOUT = 10  # Timeout para llamadas API en segundos
+API_TIMEOUT = 10  # Timeout reducido para evitar bloqueos
 MAX_FREEZE_COUNT = 5  # Número máximo de timeouts antes de reiniciar
 
 # Configuración de guardado de estado

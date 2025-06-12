@@ -733,7 +733,7 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                 "expiry_time": datetime.now() + timedelta(minutes=self.expiry_minutes),
                 "rsi": rsi_value,
             "balance_before": current_balance  # NUEVO: Guardar balance antes,
-             # NUEVO: Guardar balance antes
+            "balance_before": current_balance  # NUEVO: Guardar balance antes
             }
             self.active_options[pair].append(order_info)
             self.logger.info(f"📝 Orden registrada para {pair}")

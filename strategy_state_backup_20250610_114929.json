@@ -1,0 +1,37 @@
+{
+    "timestamp": "2025-06-10T11:49:15.062095",
+    "strategy_mode": "CALL_PUT",
+    "active_options": {
+        "GBPCHF": [
+            {
+                "id": 12730615149,
+                "type": "CALL",
+                "pair": "GBPCHF",
+                "size": 10000,
+                "entry_time": "2025-06-10T11:44:31.372753",
+                "expiry_time": "2025-06-10T11:49:31.372755",
+                "rsi": 65.74
+            }
+        ]
+    },
+    "last_signal_time": {
+        "GBPCHF": "2025-06-10T11:44:31.372797"
+    },
+    "consecutive_losses": {},
+    "daily_lockouts": {},
+    "wins": {},
+    "losses": {},
+    "ties": {},
+    "total_profit": 0.0,
+    "daily_profit": 0.0,
+    "monthly_profits": {},
+    "monthly_starting_capital": {
+        "2025-06": 574673.1
+    },
+    "monthly_stop_loss": false,
+    "stop_loss_triggered_month": null,
+    "absolute_stop_loss_activated": false,
+    "min_capital": 564673.1,
+    "last_date": "2025-06-10",
+    "current_month": "2025-06"
+}

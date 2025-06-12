@@ -733,7 +733,7 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                 "expiry_time": datetime.now() + timedelta(minutes=self.expiry_minutes),
                 "rsi": rsi_value,
             "balance_before": current_balance  # NUEVO: Guardar balance antes,
-             # NUEVO: Guardar balance antes
+            "balance_before": current_balance  # NUEVO: Guardar balance antes
             }
             self.active_options[pair].append(order_info)
             self.logger.info(f"📝 Orden registrada para {pair}")
@@ -765,7 +765,7 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                 del self.active_options[pair]
     
     def process_expired_order(self, pair, order):
-        """Procesar una orden expirada - VERSIÓN FINAL CON TODOS LOS MÉTODOS"""
+        """Procesar una orden expirada - VERSIÓN ALTERNATIVA SIN get_position_history"""
         try:
             self.logger.info(f"🔄 Verificando orden {order['id']}...")
             
@@ -777,39 +777,12 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                 self.logger.info(f"⏳ Orden muy reciente ({time_since_expiry:.0f}s), esperando...")
                 return
             
-            # Variables para resultado
+            # MÉTODO 1: Verificar en api.listinfodata
             result_found = False
             win_status = None
             win_amount = 0
             
-            # MÉTODO 1: Verificar en api.order_binary (MÁS CONFIABLE)
-            if hasattr(self.iqoption.api, 'order_binary') and order['id'] in self.iqoption.api.order_binary:
-                order_data = self.iqoption.api.order_binary[order['id']]
-                self.logger.info(f"📋 Orden encontrada en order_binary")
-                
-                # Leer el resultado directamente
-                if 'result' in order_data:
-                    result = order_data['result'].lower()
-                    if result == 'win':
-                        win_status = 'win'
-                        # Calcular ganancia
-                        profit_percent = order_data.get('profit_percent', 85)
-                        win_amount = order["size"] * (1 + profit_percent / 100)
-                        result_found = True
-                        self.logger.info(f"   Result: WIN (profit: {profit_percent}%)")
-                    elif result == 'loose':
-                        win_status = 'loose'
-                        win_amount = 0
-                        result_found = True
-                        self.logger.info(f"   Result: LOOSE")
-                    elif result == 'equal':
-                        win_status = 'equal'
-                        win_amount = order["size"]
-                        result_found = True
-                        self.logger.info(f"   Result: EQUAL")
-            
-            # MÉTODO 2: Verificar en api.listinfodata
-            if not result_found and hasattr(self.iqoption.api, 'listinfodata') and isinstance(self.iqoption.api.listinfodata, dict):
+            if hasattr(self.iqoption.api, 'listinfodata') and isinstance(self.iqoption.api.listinfodata, dict):
                 self.logger.debug("📋 Buscando en listinfodata...")
                 for key, value in self.iqoption.api.listinfodata.items():
                     if isinstance(value, list):
@@ -826,7 +799,7 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                     if result_found:
                         break
             
-            # MÉTODO 3: Verificar por balance (para cuentas REAL)
+            # MÉTODO 2: Verificar por balance (si no se encontró en listinfodata)
             if not result_found and 'balance_before' in order:
                 current_balance = self.api_call_with_timeout(self.iqoption.get_balance)
                 if current_balance is not None:
@@ -837,18 +810,16 @@ class MultiCurrencyRSIBinaryOptionsStrategy:
                     self.logger.info(f"   Balance ahora: ${current_balance:,.2f}")
                     self.logger.info(f"   Diferencia: ${balance_diff:+,.2f}")
                     
-                    # Solo usar balance si hay cambio significativo
-                    if abs(balance_diff) > 0.1:
-                        if balance_diff > 0:
-                            win_status = 'win'
-                            win_amount = order["size"] + balance_diff
-                            result_found = True
-                        else:
-                            win_status = 'loose'
-                            win_amount = 0
-                            result_found = True
+                    if balance_diff > 0:
+                        win_status = 'win'
+                        win_amount = order["size"] + balance_diff
+                        result_found = True
+                    elif balance_diff < -0.5:  # Pequeño margen para evitar falsos positivos
+                        win_status = 'loose'
+                        win_amount = 0
+                        result_found = True
             
-            # MÉTODO 4: Intentar get_async_order como último recurso
+            # MÉTODO 3: Intentar get_async_order como último recurso
             if not result_found and time_since_expiry > 20:
                 self.logger.info("📋 Intentando get_async_order...")
                 order_result = self.api_call_with_timeout(

@@ -11258,3 +11258,1543 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
 2025-06-09 20:32:51 | CRITICAL | 🚨 STOP LOSS MENSUAL ACTIVADO!
 2025-06-09 20:32:51 | CRITICAL | Pérdida del mes: 40%
 2025-06-09 20:32:51 | INFO | 🛑 Stop loss activo. Esperando...
+2025-06-10 09:09:52 | INFO | ============================================================
+2025-06-10 09:09:52 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 09:09:52 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 09:09:52 | INFO | ============================================================
+2025-06-10 09:09:52 | INFO | 📅 Fecha/Hora: 2025-06-10 09:09:52
+2025-06-10 09:09:52 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 09:09:52 | INFO | ============================================================
+2025-06-10 09:09:52 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 09:09:52 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 09:09:52 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 09:09:52 | INFO | ============================================================
+2025-06-10 09:09:52 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 09:09:52 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 09:09:52 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 09:09:52 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 09:09:52 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 09:09:54 | INFO | ✅ Conexión exitosa
+2025-06-10 09:09:55 | INFO | 💰 Balance actual: $576,173.10
+2025-06-10 09:09:55 | INFO | 💰 Capital inicial: $576,173.10
+2025-06-10 09:09:55 | INFO | ✅ Estado cargado desde 2025-06-09T20:19:51.004782
+2025-06-10 09:09:55 | INFO | 🌅 Detectado nuevo día al iniciar: 2025-06-10
+2025-06-10 09:09:55 | INFO | 🌅 Reseteando variables para nuevo día de trading
+2025-06-10 09:09:55 | INFO | ✅ Variables diarias reseteadas
+2025-06-10 09:09:55 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 09:10:03 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 09:10:03 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 09:10:03 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 09:10:03 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 09:10:03 | INFO | 📊 Total pares disponibles: 1
+2025-06-10 09:10:03 | INFO | 📋 Pares activos:
+2025-06-10 09:10:03 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 09:10:03 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 09:10:03 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 09:10:03 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 09:10:03 | INFO | 📊 Configuración: 1 pares disponibles
+2025-06-10 09:10:03 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 09:10:03 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-10 09:10:03 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 09:10:04 | INFO | 📉 Nuevo mínimo: $576,173.10 (0.00% pérdida)
+2025-06-10 09:10:04 | INFO | 📋 Resultado de orden 12728454324: defaultdict(<class 'dict'>, {})
+2025-06-10 09:10:04 | INFO | ❌ CADCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 09:10:04 | INFO | 📊 CADCHF - Pérdidas consecutivas: 1
+2025-06-10 09:10:04 | INFO | 📋 Resultado de orden 12728454377: defaultdict(<class 'dict'>, {})
+2025-06-10 09:10:04 | INFO | ❌ EURCAD - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 09:10:04 | INFO | 📊 EURCAD - Pérdidas consecutivas: 1
+2025-06-10 09:10:12 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 09:10:12 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 09:10:13 | INFO | ============================================================
+2025-06-10 09:10:13 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 09:10:13 | INFO | ============================================================
+2025-06-10 09:10:13 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 09:10:13 | INFO | 💰 Capital Inicial: $576,173.10
+2025-06-10 09:10:13 | INFO | 💰 Balance Final: $576,173.10
+2025-06-10 09:10:13 | INFO | 📈 Rendimiento Total: 0.00%
+2025-06-10 09:10:13 | INFO | 🎯 Total Operaciones: 2
+2025-06-10 09:10:13 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-10 09:10:13 | INFO | ❌ Derrotas: 2 (100.0%)
+2025-06-10 09:10:13 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-10 09:10:13 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-10 09:10:13 | INFO | 💵 Beneficio Neto: $-20,000.00
+2025-06-10 09:10:13 | INFO | 📉 Capital Mínimo: $576,173.10
+2025-06-10 09:10:13 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 09:10:13 | INFO | EURCAD: 1 trades | 0W/1L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 1
+2025-06-10 09:10:13 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 09:10:13 | INFO | 2025-06: $0.00
+2025-06-10 09:10:13 | INFO | ============================================================
+2025-06-10 09:10:13 | INFO | 👋 Estrategia finalizada
+2025-06-10 09:10:13 | INFO | 👋 Programa finalizado
+2025-06-10 09:11:08 | INFO | ============================================================
+2025-06-10 09:11:08 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 09:11:08 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 09:11:08 | INFO | ============================================================
+2025-06-10 09:11:08 | INFO | 📅 Fecha/Hora: 2025-06-10 09:11:08
+2025-06-10 09:11:08 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 09:11:08 | INFO | ============================================================
+2025-06-10 09:11:08 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 09:11:08 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 09:11:08 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 09:11:08 | INFO | ============================================================
+2025-06-10 09:11:08 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 09:11:08 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 09:11:08 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 09:11:08 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 09:11:08 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 09:11:11 | INFO | ✅ Conexión exitosa
+2025-06-10 09:11:11 | INFO | 💰 Balance actual: $576,173.10
+2025-06-10 09:11:11 | INFO | 💰 Capital inicial: $576,173.10
+2025-06-10 09:11:11 | INFO | 📂 No hay archivo de estado previo
+2025-06-10 09:11:11 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 09:11:19 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 09:11:19 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 09:11:19 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 09:11:19 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 09:11:19 | INFO | 📊 Total pares disponibles: 1
+2025-06-10 09:11:19 | INFO | 📋 Pares activos:
+2025-06-10 09:11:19 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 09:11:19 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 09:11:19 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 09:11:19 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 09:11:19 | INFO | 📊 Configuración: 1 pares disponibles
+2025-06-10 09:11:19 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 09:11:19 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-10 09:11:19 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 09:13:34 | INFO | 🔄 Ciclo #10 - 2025-06-10 09:13:34
+2025-06-10 09:16:04 | INFO | 🔄 Ciclo #20 - 2025-06-10 09:16:04
+2025-06-10 09:18:34 | INFO | 🔄 Ciclo #30 - 2025-06-10 09:18:34
+2025-06-10 09:21:04 | INFO | 🔄 Ciclo #40 - 2025-06-10 09:21:04
+2025-06-10 09:23:35 | INFO | 🔄 Ciclo #50 - 2025-06-10 09:23:35
+2025-06-10 09:26:05 | INFO | 🔄 Ciclo #60 - 2025-06-10 09:26:05
+2025-06-10 09:28:35 | INFO | 🔄 Ciclo #70 - 2025-06-10 09:28:35
+2025-06-10 09:31:05 | INFO | 🔄 Ciclo #80 - 2025-06-10 09:31:05
+2025-06-10 09:33:35 | INFO | 🔄 Ciclo #90 - 2025-06-10 09:33:35
+2025-06-10 09:36:05 | INFO | 🔄 Ciclo #100 - 2025-06-10 09:36:05
+2025-06-10 09:36:05 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 09:36:05 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 09:36:13 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 09:36:13 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 09:36:13 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 09:36:13 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 09:36:13 | INFO | 📊 Total pares disponibles: 1
+2025-06-10 09:36:13 | INFO | 📋 Pares activos:
+2025-06-10 09:36:13 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 09:38:35 | INFO | 🔄 Ciclo #110 - 2025-06-10 09:38:35
+2025-06-10 09:41:05 | INFO | 🔄 Ciclo #120 - 2025-06-10 09:41:05
+2025-06-10 09:43:35 | INFO | 🔄 Ciclo #130 - 2025-06-10 09:43:35
+2025-06-10 09:46:05 | INFO | 🔄 Ciclo #140 - 2025-06-10 09:46:05
+2025-06-10 09:48:35 | INFO | 🔄 Ciclo #150 - 2025-06-10 09:48:35
+2025-06-10 09:51:05 | INFO | 🔄 Ciclo #160 - 2025-06-10 09:51:05
+2025-06-10 09:54:28 | INFO | ============================================================
+2025-06-10 09:54:28 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 09:54:28 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 09:54:28 | INFO | ============================================================
+2025-06-10 09:54:28 | INFO | 📅 Fecha/Hora: 2025-06-10 09:54:28
+2025-06-10 09:54:28 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 09:54:28 | INFO | ============================================================
+2025-06-10 09:54:28 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 09:54:28 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 09:54:28 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 09:54:28 | INFO | ============================================================
+2025-06-10 09:54:28 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 09:54:28 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 09:54:28 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 09:54:28 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 09:54:28 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 09:54:31 | INFO | ✅ Conexión exitosa
+2025-06-10 09:54:32 | INFO | 💰 Balance actual: $576,173.10
+2025-06-10 09:54:32 | INFO | 💰 Capital inicial: $576,173.10
+2025-06-10 09:54:32 | INFO | ✅ Estado cargado desde 2025-06-10T09:48:35.943369
+2025-06-10 09:54:32 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 09:54:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 09:54:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 09:54:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 09:54:40 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 09:54:40 | INFO | 📊 Total pares disponibles: 1
+2025-06-10 09:54:40 | INFO | 📋 Pares activos:
+2025-06-10 09:54:40 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 09:54:40 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 09:54:40 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 09:54:40 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 09:54:40 | INFO | 📊 Configuración: 1 pares disponibles
+2025-06-10 09:54:40 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 09:54:40 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-10 09:54:40 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 09:56:55 | INFO | 🔄 Ciclo #10 - 2025-06-10 09:56:55
+2025-06-10 09:59:25 | INFO | 🔄 Ciclo #20 - 2025-06-10 09:59:25
+2025-06-10 10:01:55 | INFO | 🔄 Ciclo #30 - 2025-06-10 10:01:55
+2025-06-10 10:04:25 | INFO | 🔄 Ciclo #40 - 2025-06-10 10:04:25
+2025-06-10 10:06:55 | INFO | 🔄 Ciclo #50 - 2025-06-10 10:06:55
+2025-06-10 10:09:25 | INFO | 🔄 Ciclo #60 - 2025-06-10 10:09:25
+2025-06-10 10:10:11 | INFO | 🟢 EURCAD - Señal CALL (RSI: 73.33)
+2025-06-10 10:10:11 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-10 10:10:12 | WARNING | ⚠️ Error con EURCAD-OTC: Cannot purchase an option (the asset is not available at the moment).
+2025-06-10 10:10:12 | INFO | 🔄 Buscando alternativa para EURCAD...
+2025-06-10 10:10:16 | INFO | ✅ Cambiando EURCAD de EURCAD-OTC a EURCAD-op (binary)
+2025-06-10 10:10:16 | INFO | 🔄 Reintentando con activo alternativo... (intento 2/2)
+2025-06-10 10:10:17 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-op), cantidad: $10,000.00
+2025-06-10 10:10:17 | ERROR | ❌ Error colocando orden: Cannot purchase an option (the asset is not available at the moment).
+2025-06-10 10:11:55 | INFO | 🔄 Ciclo #70 - 2025-06-10 10:11:55
+2025-06-10 10:14:25 | INFO | 🔄 Ciclo #80 - 2025-06-10 10:14:25
+2025-06-10 10:16:55 | INFO | 🔄 Ciclo #90 - 2025-06-10 10:16:55
+2025-06-10 10:19:25 | INFO | 🔄 Ciclo #100 - 2025-06-10 10:19:25
+2025-06-10 10:19:26 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 10:19:26 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 10:19:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 10:19:40 | INFO | ✅ EURCAD: Seleccionado EURCAD-op (binary)
+2025-06-10 10:19:40 | INFO | 📊 Total pares disponibles: 1
+2025-06-10 10:19:40 | INFO | 📋 Pares activos:
+2025-06-10 10:19:40 | INFO |    - EURCAD → EURCAD-op (binary)
+2025-06-10 10:22:00 | INFO | 🔄 Ciclo #110 - 2025-06-10 10:22:00
+2025-06-10 10:24:30 | INFO | 🔄 Ciclo #120 - 2025-06-10 10:24:30
+2025-06-10 10:27:00 | INFO | 🔄 Ciclo #130 - 2025-06-10 10:27:00
+2025-06-10 10:29:30 | INFO | 🔄 Ciclo #140 - 2025-06-10 10:29:30
+2025-06-10 10:32:00 | INFO | 🔄 Ciclo #150 - 2025-06-10 10:32:00
+2025-06-10 10:34:31 | INFO | 🔄 Ciclo #160 - 2025-06-10 10:34:31
+2025-06-10 10:36:33 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 10:36:33 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 10:36:33 | INFO | ============================================================
+2025-06-10 10:36:33 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 10:36:33 | INFO | ============================================================
+2025-06-10 10:36:33 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 10:36:33 | INFO | 💰 Capital Inicial: $576,173.10
+2025-06-10 10:36:33 | INFO | 💰 Balance Final: $576,173.10
+2025-06-10 10:36:33 | INFO | 📈 Rendimiento Total: 0.00%
+2025-06-10 10:36:33 | INFO | 🎯 Total Operaciones: 0
+2025-06-10 10:36:33 | INFO | 💵 Beneficio Neto: $0.00
+2025-06-10 10:36:33 | INFO | 📉 Capital Mínimo: $576,173.10
+2025-06-10 10:36:33 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 10:36:33 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 10:36:33 | INFO | ============================================================
+2025-06-10 10:36:33 | INFO | 👋 Estrategia finalizada
+2025-06-10 10:36:33 | INFO | 👋 Programa finalizado
+2025-06-10 10:37:38 | INFO | ============================================================
+2025-06-10 10:37:38 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 10:37:38 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 10:37:38 | INFO | ============================================================
+2025-06-10 10:37:38 | INFO | 📅 Fecha/Hora: 2025-06-10 10:37:38
+2025-06-10 10:37:38 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 10:37:38 | INFO | ============================================================
+2025-06-10 10:37:38 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 10:37:38 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 10:37:38 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 10:37:38 | INFO | ============================================================
+2025-06-10 10:37:38 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 10:37:38 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 10:37:38 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 10:37:38 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 10:37:38 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 10:37:40 | INFO | ✅ Conexión exitosa
+2025-06-10 10:37:40 | INFO | 💰 Balance actual: $576,173.10
+2025-06-10 10:37:41 | INFO | 💰 Capital inicial: $576,173.10
+2025-06-10 10:37:41 | INFO | ✅ Estado cargado desde 2025-06-10T10:36:33.457383
+2025-06-10 10:37:41 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 10:37:48 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 10:37:48 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 10:37:48 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 10:37:48 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 10:37:48 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 10:37:48 | INFO | 📋 Pares activos:
+2025-06-10 10:37:48 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 10:37:48 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 10:37:48 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 10:37:48 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 10:37:48 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 10:37:48 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-10 10:37:48 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 10:37:48 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-10 10:37:48 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 10:37:49 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 69.11)
+2025-06-10 10:37:49 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-10 10:37:50 | INFO | ✅ Orden colocada exitosamente. ID: 12730398587
+2025-06-10 10:37:50 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-10 10:38:03 | INFO | 📉 Nuevo mínimo: $566,173.10 (1.74% pérdida)
+2025-06-10 10:40:03 | INFO | 🔄 Ciclo #10 - 2025-06-10 10:40:03
+2025-06-10 10:42:33 | INFO | 🔄 Ciclo #20 - 2025-06-10 10:42:33
+2025-06-10 10:43:19 | INFO | 📋 Resultado de orden 12730398587: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8912847121, 'option_id': 12730398587, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749569870, 'open_time_millisecond': 1749569870438, 'expiration_time': 1749570180, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.113915, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749569870138, 'created_at': 1749569870139, 'updated_at': 1749569870661}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37524810477, 'id': '7e1d811e69b98c99142787b3b7ec1cb5', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12730398587, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749569870438, 'open_quote': 1.113915, 'invest': 10000, 'invest_enrolled': 2.4, 'close_quote': 1.113875, 'close_reason': 'loose', 'close_time': 1749570180000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10902968175, 'option_id': 12730398587, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.4, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.113915, 'expiration_value': 1.113875, 'open_time': 1749569870, 'open_time_millisecond': 1749569870438, 'expiration_time': 1749570180, 'actual_expire': 1749570180, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749569870138, 'created_at': 1749569870139, 'updated_at': 1749570180847}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8912631684, 'option_id': 12730398587, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749569870, 'open_time_millisecond': 1749569870438, 'expiration_time': 1749570180, 'actual_expire': 1749570180, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.113915, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.113875, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-10 10:43:19 | INFO | ❌ GBPCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 10:43:19 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 1
+2025-06-10 10:45:03 | INFO | 🔄 Ciclo #30 - 2025-06-10 10:45:03
+2025-06-10 10:47:33 | INFO | 🔄 Ciclo #40 - 2025-06-10 10:47:33
+2025-06-10 10:50:03 | INFO | 🔄 Ciclo #50 - 2025-06-10 10:50:03
+2025-06-10 10:52:33 | INFO | 🔄 Ciclo #60 - 2025-06-10 10:52:33
+2025-06-10 10:55:04 | INFO | 🔄 Ciclo #70 - 2025-06-10 10:55:04
+2025-06-10 10:57:34 | INFO | 🔄 Ciclo #80 - 2025-06-10 10:57:34
+2025-06-10 11:00:04 | INFO | 🔄 Ciclo #90 - 2025-06-10 11:00:04
+2025-06-10 11:02:34 | INFO | 🔄 Ciclo #100 - 2025-06-10 11:02:34
+2025-06-10 11:02:34 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 11:02:34 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 11:02:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 11:02:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 11:02:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 11:02:41 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:02:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:02:41 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 11:02:41 | INFO | 📋 Pares activos:
+2025-06-10 11:02:41 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 11:02:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:02:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:05:04 | INFO | 🔄 Ciclo #110 - 2025-06-10 11:05:04
+2025-06-10 11:07:34 | INFO | 🔄 Ciclo #120 - 2025-06-10 11:07:34
+2025-06-10 11:10:04 | INFO | 🔄 Ciclo #130 - 2025-06-10 11:10:04
+2025-06-10 11:12:34 | INFO | 🔄 Ciclo #140 - 2025-06-10 11:12:34
+2025-06-10 11:15:04 | INFO | 🔄 Ciclo #150 - 2025-06-10 11:15:04
+2025-06-10 11:17:34 | INFO | 🔄 Ciclo #160 - 2025-06-10 11:17:34
+2025-06-10 11:20:04 | INFO | 🔄 Ciclo #170 - 2025-06-10 11:20:04
+2025-06-10 11:22:34 | INFO | 🔄 Ciclo #180 - 2025-06-10 11:22:34
+2025-06-10 11:25:04 | INFO | 🔄 Ciclo #190 - 2025-06-10 11:25:04
+2025-06-10 11:27:34 | INFO | 🔄 Ciclo #200 - 2025-06-10 11:27:34
+2025-06-10 11:27:35 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 11:27:35 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 11:27:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 11:27:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 11:27:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 11:27:42 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:27:42 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:27:42 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 11:27:42 | INFO | 📋 Pares activos:
+2025-06-10 11:27:42 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 11:27:42 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:27:42 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:30:04 | INFO | 🔄 Ciclo #210 - 2025-06-10 11:30:04
+2025-06-10 11:32:34 | INFO | 🔄 Ciclo #220 - 2025-06-10 11:32:34
+2025-06-10 11:33:57 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 11:33:57 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 11:33:57 | INFO | ============================================================
+2025-06-10 11:33:57 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 11:33:57 | INFO | ============================================================
+2025-06-10 11:33:57 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 11:33:57 | INFO | 💰 Capital Inicial: $576,173.10
+2025-06-10 11:33:57 | INFO | 💰 Balance Final: $566,173.10
+2025-06-10 11:33:57 | INFO | 📈 Rendimiento Total: -1.74%
+2025-06-10 11:33:57 | INFO | 🎯 Total Operaciones: 1
+2025-06-10 11:33:57 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-10 11:33:57 | INFO | ❌ Derrotas: 1 (100.0%)
+2025-06-10 11:33:57 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-10 11:33:57 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-10 11:33:57 | INFO | 💵 Beneficio Neto: $-10,000.00
+2025-06-10 11:33:57 | INFO | 📉 Capital Mínimo: $566,173.10
+2025-06-10 11:33:57 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 11:33:57 | INFO | GBPCHF: 1 trades | 0W/1L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 1
+2025-06-10 11:33:57 | INFO | GBPCHF: 1 trades | 0W/1L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 1
+2025-06-10 11:33:57 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 11:33:57 | INFO | ============================================================
+2025-06-10 11:33:57 | INFO | 👋 Estrategia finalizada
+2025-06-10 11:33:57 | INFO | 👋 Programa finalizado
+2025-06-10 11:34:49 | INFO | ============================================================
+2025-06-10 11:34:49 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 11:34:49 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 11:34:49 | INFO | ============================================================
+2025-06-10 11:34:49 | INFO | 📅 Fecha/Hora: 2025-06-10 11:34:49
+2025-06-10 11:34:49 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 11:34:49 | INFO | ============================================================
+2025-06-10 11:34:49 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 11:34:49 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 11:34:49 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 11:34:49 | INFO | ============================================================
+2025-06-10 11:34:49 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 11:34:49 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 11:34:49 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 11:34:49 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 11:34:49 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 11:34:52 | INFO | ✅ Conexión exitosa
+2025-06-10 11:34:52 | INFO | 💰 Balance actual: $566,173.10
+2025-06-10 11:34:52 | INFO | 💰 Capital inicial: $566,173.10
+2025-06-10 11:34:52 | INFO | ✅ Estado cargado desde 2025-06-10T11:33:57.088674
+2025-06-10 11:34:52 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 11:35:02 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 11:35:02 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 11:35:02 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 11:35:02 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:35:02 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 11:35:02 | INFO | 📋 Pares activos:
+2025-06-10 11:35:02 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 11:35:02 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:35:02 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 11:35:02 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 11:35:02 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 11:35:02 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-10 11:35:02 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 11:35:02 | INFO | ⏰ Tiempo entre señales: 15 minutos (1 hora)
+2025-06-10 11:35:02 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 11:35:03 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 68.48)
+2025-06-10 11:35:04 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-10 11:35:05 | INFO | ✅ Orden colocada exitosamente. ID: 12730585610
+2025-06-10 11:35:05 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-10 11:35:18 | INFO | 📉 Nuevo mínimo: $556,173.10 (1.77% pérdida)
+2025-06-10 11:37:17 | INFO | 🔄 Ciclo #10 - 2025-06-10 11:37:17
+2025-06-10 11:39:47 | INFO | 🔄 Ciclo #20 - 2025-06-10 11:39:47
+2025-06-10 11:40:33 | INFO | 📋 Resultado de orden 12730585610: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8913029128, 'option_id': 12730585610, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749573305, 'open_time_millisecond': 1749573305029, 'expiration_time': 1749573600, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.115325, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749573304729, 'created_at': 1749573304730, 'updated_at': 1749573305092}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37526149001, 'id': '21da59c1c732001598ab0b3f3b609039', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12730585610, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749573305029, 'open_quote': 1.115325, 'invest': 10000, 'invest_enrolled': 2.4, 'close_quote': 1.115705, 'close_reason': 'win', 'close_time': 1749573600000, 'close_profit': 18500, 'close_profit_enrolled': 4.44, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10903331864, 'option_id': 12730585610, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.4, 'profit_amount': 18500, 'win_enrolled_amount': 4.44, 'value': 1.115325, 'expiration_value': 1.115705, 'open_time': 1749573305, 'open_time_millisecond': 1749573305029, 'expiration_time': 1749573600, 'actual_expire': 1749573600, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749573304729, 'created_at': 1749573304730, 'updated_at': 1749573600214}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8912810855, 'option_id': 12730585610, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749573305, 'open_time_millisecond': 1749573305029, 'expiration_time': 1749573600, 'actual_expire': 1749573600, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.44, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.115325, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.115705, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-10 11:40:33 | INFO | ❌ GBPCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 11:40:33 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 2
+2025-06-10 11:40:42 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 11:40:42 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 11:40:42 | INFO | ============================================================
+2025-06-10 11:40:42 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 11:40:42 | INFO | ============================================================
+2025-06-10 11:40:42 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 11:40:42 | INFO | 💰 Capital Inicial: $566,173.10
+2025-06-10 11:40:42 | INFO | 💰 Balance Final: $574,673.10
+2025-06-10 11:40:42 | INFO | 📈 Rendimiento Total: 1.50%
+2025-06-10 11:40:42 | INFO | 🎯 Total Operaciones: 2
+2025-06-10 11:40:42 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-10 11:40:42 | INFO | ❌ Derrotas: 2 (100.0%)
+2025-06-10 11:40:42 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-10 11:40:42 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-10 11:40:42 | INFO | 💵 Beneficio Neto: $-20,000.00
+2025-06-10 11:40:42 | INFO | 📉 Capital Mínimo: $556,173.10
+2025-06-10 11:40:42 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 11:40:42 | INFO | GBPCHF: 2 trades | 0W/2L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 2
+2025-06-10 11:40:42 | INFO | GBPCHF: 2 trades | 0W/2L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 2
+2025-06-10 11:40:42 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 11:40:42 | INFO | ============================================================
+2025-06-10 11:40:42 | INFO | 👋 Estrategia finalizada
+2025-06-10 11:40:42 | INFO | 👋 Programa finalizado
+2025-06-10 11:41:16 | INFO | ============================================================
+2025-06-10 11:41:16 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 11:41:16 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 11:41:16 | INFO | ============================================================
+2025-06-10 11:41:16 | INFO | 📅 Fecha/Hora: 2025-06-10 11:41:16
+2025-06-10 11:41:16 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 11:41:16 | INFO | ============================================================
+2025-06-10 11:41:16 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 11:41:16 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 11:41:16 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 11:41:16 | INFO | ============================================================
+2025-06-10 11:41:16 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 11:41:16 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 11:41:16 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 11:41:16 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 11:41:16 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 11:41:18 | INFO | ✅ Conexión exitosa
+2025-06-10 11:41:18 | INFO | 💰 Balance actual: $574,673.10
+2025-06-10 11:41:18 | INFO | 💰 Capital inicial: $574,673.10
+2025-06-10 11:41:18 | INFO | 📂 No hay archivo de estado previo
+2025-06-10 11:41:18 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 11:41:29 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 11:41:29 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 11:41:29 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 11:41:29 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:41:29 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 11:41:29 | INFO | 📋 Pares activos:
+2025-06-10 11:41:29 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 11:41:29 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:41:29 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 11:41:29 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 11:41:29 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 11:41:29 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-10 11:41:29 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 11:41:29 | INFO | ⏰ Tiempo entre señales: 15 minutos (1 hora)
+2025-06-10 11:41:29 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 11:43:44 | INFO | 🔄 Ciclo #10 - 2025-06-10 11:43:44
+2025-06-10 11:44:30 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 65.74)
+2025-06-10 11:44:30 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-10 11:44:31 | INFO | ✅ Orden colocada exitosamente. ID: 12730615149
+2025-06-10 11:44:31 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-10 11:44:44 | INFO | 📉 Nuevo mínimo: $564,673.10 (1.74% pérdida)
+2025-06-10 11:46:14 | INFO | 🔄 Ciclo #20 - 2025-06-10 11:46:14
+2025-06-10 11:48:44 | INFO | 🔄 Ciclo #30 - 2025-06-10 11:48:44
+2025-06-10 11:49:15 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 11:49:15 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 11:49:15 | INFO | ============================================================
+2025-06-10 11:49:15 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 11:49:15 | INFO | ============================================================
+2025-06-10 11:49:15 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 11:49:15 | INFO | 💰 Capital Inicial: $574,673.10
+2025-06-10 11:49:15 | INFO | 💰 Balance Final: $564,673.10
+2025-06-10 11:49:15 | INFO | 📈 Rendimiento Total: -1.74%
+2025-06-10 11:49:15 | INFO | 🎯 Total Operaciones: 0
+2025-06-10 11:49:15 | INFO | 💵 Beneficio Neto: $0.00
+2025-06-10 11:49:15 | INFO | 📉 Capital Mínimo: $564,673.10
+2025-06-10 11:49:15 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 11:49:15 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 11:49:15 | INFO | ============================================================
+2025-06-10 11:49:15 | INFO | 👋 Estrategia finalizada
+2025-06-10 11:49:15 | INFO | 👋 Programa finalizado
+2025-06-10 11:49:34 | INFO | ============================================================
+2025-06-10 11:49:34 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-10 11:49:34 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-10 11:49:34 | INFO | ============================================================
+2025-06-10 11:49:34 | INFO | 📅 Fecha/Hora: 2025-06-10 11:49:34
+2025-06-10 11:49:34 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-10 11:49:34 | INFO | ============================================================
+2025-06-10 11:49:34 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-10 11:49:34 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-10 11:49:34 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-10 11:49:34 | INFO | ============================================================
+2025-06-10 11:49:34 | INFO | 🚀 Inicializando estrategia...
+2025-06-10 11:49:34 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-10 11:49:34 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-10 11:49:34 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-10 11:49:34 | INFO | 🔗 Conectando a IQ Option...
+2025-06-10 11:49:36 | INFO | ✅ Conexión exitosa
+2025-06-10 11:49:36 | INFO | 💰 Balance actual: $564,673.10
+2025-06-10 11:49:37 | INFO | 💰 Capital inicial: $564,673.10
+2025-06-10 11:49:37 | INFO | 📂 No hay archivo de estado previo
+2025-06-10 11:49:37 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 11:49:44 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 11:49:44 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 11:49:44 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 11:49:44 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 11:49:44 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 11:49:44 | INFO | 📋 Pares activos:
+2025-06-10 11:49:44 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 11:49:44 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 11:49:44 | INFO | 🎯 Iniciando operaciones...
+2025-06-10 11:49:44 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-10 11:49:44 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-10 11:49:44 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-10 11:49:44 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-10 11:49:44 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-10 11:49:44 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-10 11:51:59 | INFO | 🔄 Ciclo #10 - 2025-06-10 11:51:59
+2025-06-10 11:53:00 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 65.29)
+2025-06-10 11:53:01 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-10 11:53:02 | INFO | ✅ Orden colocada exitosamente. ID: 12730642255
+2025-06-10 11:53:02 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-10 11:53:15 | INFO | 📉 Nuevo mínimo: $554,673.10 (1.77% pérdida)
+2025-06-10 11:54:29 | INFO | 🔄 Ciclo #20 - 2025-06-10 11:54:29
+2025-06-10 11:56:59 | INFO | 🔄 Ciclo #30 - 2025-06-10 11:56:59
+2025-06-10 11:58:30 | INFO | 📋 Resultado de orden 12730642255: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8913084144, 'option_id': 12730642255, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749574382, 'open_time_millisecond': 1749574382046, 'expiration_time': 1749574680, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.115445, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749574381746, 'created_at': 1749574381747, 'updated_at': 1749574382163}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37526524877, 'id': '9e4d966d2ea697820f3c9ca8acf707ae', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12730642255, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749574382046, 'open_quote': 1.115445, 'invest': 10000, 'invest_enrolled': 2.4, 'close_quote': 1.115475, 'close_reason': 'win', 'close_time': 1749574680000, 'close_profit': 18500, 'close_profit_enrolled': 4.44, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10903444082, 'option_id': 12730642255, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.4, 'profit_amount': 18500, 'win_enrolled_amount': 4.44, 'value': 1.115445, 'expiration_value': 1.115475, 'open_time': 1749574382, 'open_time_millisecond': 1749574382046, 'expiration_time': 1749574680, 'actual_expire': 1749574680, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749574381746, 'created_at': 1749574381747, 'updated_at': 1749574680206}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8912865886, 'option_id': 12730642255, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749574382, 'open_time_millisecond': 1749574382046, 'expiration_time': 1749574680, 'actual_expire': 1749574680, 'amount': 10000, 'enrolled_amount': 2.4, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.44, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.115445, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.115475, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-10 11:58:30 | INFO | ❌ GBPCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 11:58:30 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 1
+2025-06-10 11:59:29 | INFO | 🔄 Ciclo #40 - 2025-06-10 11:59:29
+2025-06-10 12:02:00 | INFO | 🔄 Ciclo #50 - 2025-06-10 12:02:00
+2025-06-10 12:04:30 | INFO | 🔄 Ciclo #60 - 2025-06-10 12:04:30
+2025-06-10 12:07:00 | INFO | 🔄 Ciclo #70 - 2025-06-10 12:07:00
+2025-06-10 12:09:30 | INFO | 🔄 Ciclo #80 - 2025-06-10 12:09:30
+2025-06-10 12:12:00 | INFO | 🔄 Ciclo #90 - 2025-06-10 12:12:00
+2025-06-10 12:14:30 | INFO | 🔄 Ciclo #100 - 2025-06-10 12:14:30
+2025-06-10 12:14:30 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 12:14:30 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 12:14:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 12:14:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 12:14:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 12:14:41 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 12:14:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 12:14:41 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 12:14:41 | INFO | 📋 Pares activos:
+2025-06-10 12:14:41 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 12:14:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 12:14:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 12:17:01 | INFO | 🔄 Ciclo #110 - 2025-06-10 12:17:01
+2025-06-10 12:19:31 | INFO | 🔄 Ciclo #120 - 2025-06-10 12:19:31
+2025-06-10 12:22:01 | INFO | 🔄 Ciclo #130 - 2025-06-10 12:22:01
+2025-06-10 12:24:31 | INFO | 🔄 Ciclo #140 - 2025-06-10 12:24:31
+2025-06-10 12:27:01 | INFO | 🔄 Ciclo #150 - 2025-06-10 12:27:01
+2025-06-10 12:27:47 | INFO | 🟢 EURCAD - Señal CALL (RSI: 65.23)
+2025-06-10 12:27:47 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-10 12:27:48 | INFO | ✅ Orden colocada exitosamente. ID: 12730744836
+2025-06-10 12:27:48 | INFO | 📝 Orden registrada para EURCAD
+2025-06-10 12:29:31 | INFO | 🔄 Ciclo #160 - 2025-06-10 12:29:31
+2025-06-10 12:32:01 | INFO | 🔄 Ciclo #170 - 2025-06-10 12:32:01
+2025-06-10 12:33:17 | INFO | 📋 Resultado de orden 12730744836: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8913184110, 'option_id': 12730744836, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749576468, 'open_time_millisecond': 1749576468548, 'expiration_time': 1749576780, 'amount': 10000, 'enrolled_amount': 2.39, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.561735, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038, 'requested_at': 1749576468248, 'created_at': 1749576468249, 'updated_at': 1749576468645}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37527241872, 'id': 'bb94f52b23447461ecdf7f4b4f14e44d', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12730744836, 'active_id': 2117, 'instrument_id': '2117', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749576468548, 'open_quote': 1.561735, 'invest': 10000, 'invest_enrolled': 2.39, 'close_quote': 1.564185, 'close_reason': 'win', 'close_time': 1749576780000, 'close_profit': 18500, 'close_profit_enrolled': 4.43, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10903649495, 'option_id': 12730744836, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2117, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.39, 'profit_amount': 18500, 'win_enrolled_amount': 4.43, 'value': 1.561735, 'expiration_value': 1.564185, 'open_time': 1749576468, 'open_time_millisecond': 1749576468548, 'expiration_time': 1749576780, 'actual_expire': 1749576780, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749576468248, 'created_at': 1749576468249, 'updated_at': 1749576780817}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8912968106, 'option_id': 12730744836, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749576468, 'open_time_millisecond': 1749576468548, 'expiration_time': 1749576780, 'actual_expire': 1749576780, 'amount': 10000, 'enrolled_amount': 2.39, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.43, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.561735, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.564185, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038}}})
+2025-06-10 12:33:17 | INFO | ❌ EURCAD - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 12:33:17 | INFO | 📊 EURCAD - Pérdidas consecutivas: 1
+2025-06-10 12:34:31 | INFO | 🔄 Ciclo #180 - 2025-06-10 12:34:31
+2025-06-10 12:37:01 | INFO | 🔄 Ciclo #190 - 2025-06-10 12:37:01
+2025-06-10 12:39:31 | INFO | 🔄 Ciclo #200 - 2025-06-10 12:39:31
+2025-06-10 12:39:32 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 12:39:32 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 12:39:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 12:39:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 12:39:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 12:39:40 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 12:39:40 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 12:39:40 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 12:39:40 | INFO | 📋 Pares activos:
+2025-06-10 12:39:40 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 12:39:40 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 12:39:40 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 12:42:01 | INFO | 🔄 Ciclo #210 - 2025-06-10 12:42:01
+2025-06-10 12:44:31 | INFO | 🔄 Ciclo #220 - 2025-06-10 12:44:31
+2025-06-10 12:47:02 | INFO | 🔄 Ciclo #230 - 2025-06-10 12:47:02
+2025-06-10 12:49:32 | INFO | 🔄 Ciclo #240 - 2025-06-10 12:49:32
+2025-06-10 12:52:02 | INFO | 🔄 Ciclo #250 - 2025-06-10 12:52:02
+2025-06-10 12:54:32 | INFO | 🔄 Ciclo #260 - 2025-06-10 12:54:32
+2025-06-10 12:57:02 | INFO | 🔄 Ciclo #270 - 2025-06-10 12:57:02
+2025-06-10 12:59:32 | INFO | 🔄 Ciclo #280 - 2025-06-10 12:59:32
+2025-06-10 13:02:02 | INFO | 🔄 Ciclo #290 - 2025-06-10 13:02:02
+2025-06-10 13:04:32 | INFO | 🔄 Ciclo #300 - 2025-06-10 13:04:32
+2025-06-10 13:04:33 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 13:04:33 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 13:04:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 13:04:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 13:04:40 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 13:04:40 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:04:40 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:04:40 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 13:04:40 | INFO | 📋 Pares activos:
+2025-06-10 13:04:40 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 13:04:40 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:04:40 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:07:02 | INFO | 🔄 Ciclo #310 - 2025-06-10 13:07:02
+2025-06-10 13:09:32 | INFO | 🔄 Ciclo #320 - 2025-06-10 13:09:32
+2025-06-10 13:12:02 | INFO | 🔄 Ciclo #330 - 2025-06-10 13:12:02
+2025-06-10 13:14:32 | INFO | 🔄 Ciclo #340 - 2025-06-10 13:14:32
+2025-06-10 13:16:48 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 66.05)
+2025-06-10 13:16:49 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-10 13:16:49 | INFO | ✅ Orden colocada exitosamente. ID: 12730889058
+2025-06-10 13:16:49 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-10 13:17:03 | INFO | 🔄 Ciclo #350 - 2025-06-10 13:17:03
+2025-06-10 13:19:33 | INFO | 🔄 Ciclo #360 - 2025-06-10 13:19:33
+2025-06-10 13:22:03 | INFO | 🔄 Ciclo #370 - 2025-06-10 13:22:03
+2025-06-10 13:22:18 | INFO | 📋 Resultado de orden 12730889058: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8913324495, 'option_id': 12730889058, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749579409, 'open_time_millisecond': 1749579409845, 'expiration_time': 1749579720, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.117235, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749579409545, 'created_at': 1749579409546, 'updated_at': 1749579409977}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37528226999, 'id': 'a8b6fc600e5a7461ecdf7f4b4f14e44d', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12730889058, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749579409845, 'open_quote': 1.117235, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.117655, 'close_reason': 'win', 'close_time': 1749579720000, 'close_profit': 18500, 'close_profit_enrolled': 4.4, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10903934291, 'option_id': 12730889058, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 18500, 'win_enrolled_amount': 4.4, 'value': 1.117235, 'expiration_value': 1.117655, 'open_time': 1749579409, 'open_time_millisecond': 1749579409845, 'expiration_time': 1749579720, 'actual_expire': 1749579720, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749579409545, 'created_at': 1749579409546, 'updated_at': 1749579720732}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8913108874, 'option_id': 12730889058, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749579409, 'open_time_millisecond': 1749579409845, 'expiration_time': 1749579720, 'actual_expire': 1749579720, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.4, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.117235, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.117655, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-10 13:22:18 | INFO | ❌ GBPCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-10 13:22:18 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 2
+2025-06-10 13:24:33 | INFO | 🔄 Ciclo #380 - 2025-06-10 13:24:33
+2025-06-10 13:27:03 | INFO | 🔄 Ciclo #390 - 2025-06-10 13:27:03
+2025-06-10 13:29:33 | INFO | 🔄 Ciclo #400 - 2025-06-10 13:29:33
+2025-06-10 13:29:34 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 13:29:34 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 13:29:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 13:29:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 13:29:42 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 13:29:42 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:29:42 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:29:42 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 13:29:42 | INFO | 📋 Pares activos:
+2025-06-10 13:29:42 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 13:29:42 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:29:42 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:32:03 | INFO | 🔄 Ciclo #410 - 2025-06-10 13:32:03
+2025-06-10 13:34:33 | INFO | 🔄 Ciclo #420 - 2025-06-10 13:34:33
+2025-06-10 13:37:03 | INFO | 🔄 Ciclo #430 - 2025-06-10 13:37:03
+2025-06-10 13:39:33 | INFO | 🔄 Ciclo #440 - 2025-06-10 13:39:33
+2025-06-10 13:42:03 | INFO | 🔄 Ciclo #450 - 2025-06-10 13:42:03
+2025-06-10 13:44:34 | INFO | 🔄 Ciclo #460 - 2025-06-10 13:44:34
+2025-06-10 13:47:04 | INFO | 🔄 Ciclo #470 - 2025-06-10 13:47:04
+2025-06-10 13:49:34 | INFO | 🔄 Ciclo #480 - 2025-06-10 13:49:34
+2025-06-10 13:52:04 | INFO | 🔄 Ciclo #490 - 2025-06-10 13:52:04
+2025-06-10 13:54:34 | INFO | 🔄 Ciclo #500 - 2025-06-10 13:54:34
+2025-06-10 13:54:34 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-10 13:54:34 | INFO | 🔍 Verificando pares disponibles...
+2025-06-10 13:54:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-10 13:54:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-10 13:54:41 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-10 13:54:41 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-10 13:54:41 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-10 13:54:41 | INFO | 📊 Total pares disponibles: 3
+2025-06-10 13:54:41 | INFO | 📋 Pares activos:
+2025-06-10 13:54:41 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-10 13:54:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:54:41 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-10 13:57:04 | INFO | 🔄 Ciclo #510 - 2025-06-10 13:57:04
+2025-06-10 13:59:34 | INFO | 🔄 Ciclo #520 - 2025-06-10 13:59:34
+2025-06-10 14:02:04 | INFO | 🔄 Ciclo #530 - 2025-06-10 14:02:04
+2025-06-10 14:02:15 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-10 14:02:15 | INFO | 🏁 Finalizando estrategia...
+2025-06-10 14:02:15 | INFO | ============================================================
+2025-06-10 14:02:15 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-10 14:02:15 | INFO | ============================================================
+2025-06-10 14:02:15 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-10 14:02:15 | INFO | 💰 Capital Inicial: $564,673.10
+2025-06-10 14:02:15 | INFO | 💰 Balance Final: $590,173.10
+2025-06-10 14:02:15 | INFO | 📈 Rendimiento Total: 4.52%
+2025-06-10 14:02:15 | INFO | 🎯 Total Operaciones: 3
+2025-06-10 14:02:15 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-10 14:02:15 | INFO | ❌ Derrotas: 3 (100.0%)
+2025-06-10 14:02:15 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-10 14:02:15 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-10 14:02:15 | INFO | 💵 Beneficio Neto: $-30,000.00
+2025-06-10 14:02:15 | INFO | 📉 Capital Mínimo: $554,673.10
+2025-06-10 14:02:15 | INFO | 
+📊 Estadísticas por Par:
+2025-06-10 14:02:15 | INFO | EURCAD: 1 trades | 0W/1L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 1
+2025-06-10 14:02:15 | INFO | GBPCHF: 2 trades | 0W/2L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 2
+2025-06-10 14:02:15 | INFO | GBPCHF: 2 trades | 0W/2L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 2
+2025-06-10 14:02:15 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-10 14:02:15 | INFO | ============================================================
+2025-06-10 14:02:15 | INFO | 👋 Estrategia finalizada
+2025-06-10 14:02:15 | INFO | 👋 Programa finalizado
+2025-06-11 09:03:28 | INFO | ============================================================
+2025-06-11 09:03:28 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-11 09:03:28 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-11 09:03:28 | INFO | ============================================================
+2025-06-11 09:03:28 | INFO | 📅 Fecha/Hora: 2025-06-11 09:03:28
+2025-06-11 09:03:28 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-11 09:03:28 | INFO | ============================================================
+2025-06-11 09:03:28 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-11 09:03:28 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-11 09:03:28 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-11 09:03:28 | INFO | ============================================================
+2025-06-11 09:03:28 | INFO | 🚀 Inicializando estrategia...
+2025-06-11 09:03:28 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-11 09:03:28 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-11 09:03:28 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-11 09:03:28 | INFO | 🔗 Conectando a IQ Option...
+2025-06-11 09:03:30 | INFO | ✅ Conexión exitosa
+2025-06-11 09:03:30 | INFO | 💰 Balance actual: $590,173.10
+2025-06-11 09:03:31 | INFO | 💰 Capital inicial: $590,173.10
+2025-06-11 09:03:31 | INFO | 📂 No hay archivo de estado previo
+2025-06-11 09:03:31 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 09:03:39 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 09:03:39 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 09:03:39 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 09:03:39 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:03:39 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 09:03:39 | INFO | 📋 Pares activos:
+2025-06-11 09:03:39 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 09:03:39 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:03:39 | INFO | 🎯 Iniciando operaciones...
+2025-06-11 09:03:39 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-11 09:03:39 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-11 09:03:39 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-11 09:03:39 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-11 09:03:39 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-11 09:03:39 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-11 09:05:54 | INFO | 🔄 Ciclo #10 - 2025-06-11 09:05:54
+2025-06-11 09:08:24 | INFO | 🔄 Ciclo #20 - 2025-06-11 09:08:24
+2025-06-11 09:10:54 | INFO | 🔄 Ciclo #30 - 2025-06-11 09:10:54
+2025-06-11 09:13:24 | INFO | 🔄 Ciclo #40 - 2025-06-11 09:13:24
+2025-06-11 09:15:54 | INFO | 🔄 Ciclo #50 - 2025-06-11 09:15:54
+2025-06-11 09:18:24 | INFO | 🔄 Ciclo #60 - 2025-06-11 09:18:24
+2025-06-11 09:20:54 | INFO | 🔄 Ciclo #70 - 2025-06-11 09:20:54
+2025-06-11 09:23:24 | INFO | 🔄 Ciclo #80 - 2025-06-11 09:23:24
+2025-06-11 09:25:54 | INFO | 🔄 Ciclo #90 - 2025-06-11 09:25:54
+2025-06-11 09:28:24 | INFO | 🔄 Ciclo #100 - 2025-06-11 09:28:24
+2025-06-11 09:28:25 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 09:28:25 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 09:28:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 09:28:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 09:28:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 09:28:32 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:28:32 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:28:32 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 09:28:32 | INFO | 📋 Pares activos:
+2025-06-11 09:28:32 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 09:28:32 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:28:32 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:30:54 | INFO | 🔄 Ciclo #110 - 2025-06-11 09:30:54
+2025-06-11 09:32:25 | INFO | 🔴 GBPCHF - Señal PUT (RSI: 34.95)
+2025-06-11 09:32:26 | INFO | 📈 Colocando PUT en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-11 09:32:26 | INFO | ✅ Orden colocada exitosamente. ID: 12733669476
+2025-06-11 09:32:26 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-11 09:32:39 | INFO | 📉 Nuevo mínimo: $580,173.10 (1.69% pérdida)
+2025-06-11 09:33:24 | INFO | 🔄 Ciclo #120 - 2025-06-11 09:33:24
+2025-06-11 09:35:54 | INFO | 🔄 Ciclo #130 - 2025-06-11 09:35:54
+2025-06-11 09:37:55 | INFO | 📋 Resultado de orden 12733669476: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8915994860, 'option_id': 12733669476, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749652346, 'open_time_millisecond': 1749652346782, 'expiration_time': 1749652620, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.106135, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749652346482, 'created_at': 1749652346483, 'updated_at': 1749652346871}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37552014113, 'id': '9666a76b03c4c7d25f6cccf8fca757fe', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12733669476, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749652346782, 'open_quote': 1.106135, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.107115, 'close_reason': 'loose', 'close_time': 1749652620000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10909380182, 'option_id': 12733669476, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'put', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.106135, 'expiration_value': 1.107115, 'open_time': 1749652346, 'open_time_millisecond': 1749652346782, 'expiration_time': 1749652620, 'actual_expire': 1749652620, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749652346482, 'created_at': 1749652346483, 'updated_at': 1749652621014}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8915776547, 'option_id': 12733669476, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749652346, 'open_time_millisecond': 1749652346782, 'expiration_time': 1749652620, 'actual_expire': 1749652620, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.106135, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.107115, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-11 09:37:55 | INFO | ❌ GBPCHF - PUT PERDIDA. Pérdida: $10,000.00
+2025-06-11 09:37:55 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 1
+2025-06-11 09:38:24 | INFO | 🔄 Ciclo #140 - 2025-06-11 09:38:24
+2025-06-11 09:40:54 | INFO | 🔄 Ciclo #150 - 2025-06-11 09:40:54
+2025-06-11 09:43:24 | INFO | 🔄 Ciclo #160 - 2025-06-11 09:43:24
+2025-06-11 09:45:55 | INFO | 🔄 Ciclo #170 - 2025-06-11 09:45:54
+2025-06-11 09:48:25 | INFO | 🔄 Ciclo #180 - 2025-06-11 09:48:25
+2025-06-11 09:50:55 | INFO | 🔄 Ciclo #190 - 2025-06-11 09:50:55
+2025-06-11 09:53:25 | INFO | 🔄 Ciclo #200 - 2025-06-11 09:53:25
+2025-06-11 09:53:25 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 09:53:25 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 09:53:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 09:53:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 09:53:32 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 09:53:32 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 09:53:32 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 09:53:32 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 09:53:32 | INFO | 📋 Pares activos:
+2025-06-11 09:53:32 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 09:53:32 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:53:32 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 09:55:55 | INFO | 🔄 Ciclo #210 - 2025-06-11 09:55:55
+2025-06-11 09:58:25 | INFO | 🔄 Ciclo #220 - 2025-06-11 09:58:25
+2025-06-11 10:00:55 | INFO | 🔄 Ciclo #230 - 2025-06-11 10:00:55
+2025-06-11 10:03:25 | INFO | 🔄 Ciclo #240 - 2025-06-11 10:03:25
+2025-06-11 10:05:55 | INFO | 🔄 Ciclo #250 - 2025-06-11 10:05:55
+2025-06-11 10:08:25 | INFO | 🔄 Ciclo #260 - 2025-06-11 10:08:25
+2025-06-11 10:10:55 | INFO | 🔄 Ciclo #270 - 2025-06-11 10:10:55
+2025-06-11 10:12:11 | INFO | 🟢 EURCAD - Señal CALL (RSI: 65.52)
+2025-06-11 10:12:11 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-11 10:12:12 | WARNING | ⚠️ Error con EURCAD-OTC: Cannot purchase an option (the asset is not available at the moment).
+2025-06-11 10:12:12 | INFO | 🔄 Buscando alternativa para EURCAD...
+2025-06-11 10:12:15 | INFO | ✅ Cambiando EURCAD de EURCAD-OTC a EURCAD-op (binary)
+2025-06-11 10:12:15 | INFO | 🔄 Reintentando con activo alternativo... (intento 2/2)
+2025-06-11 10:12:16 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-op), cantidad: $10,000.00
+2025-06-11 10:12:16 | ERROR | ❌ Error colocando orden: Cannot purchase an option (the asset is not available at the moment).
+2025-06-11 10:13:25 | INFO | 🔄 Ciclo #280 - 2025-06-11 10:13:25
+2025-06-11 10:15:55 | INFO | 🔄 Ciclo #290 - 2025-06-11 10:15:55
+2025-06-11 10:18:25 | INFO | 🔄 Ciclo #300 - 2025-06-11 10:18:25
+2025-06-11 10:18:25 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 10:18:25 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 10:18:33 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 10:18:33 | INFO | ✅ EURCAD: Seleccionado EURCAD-op (binary)
+2025-06-11 10:18:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 10:18:33 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-op (binary)
+2025-06-11 10:18:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 10:18:33 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-op (binary)
+2025-06-11 10:18:33 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 10:18:33 | INFO | 📋 Pares activos:
+2025-06-11 10:18:33 | INFO |    - EURCAD → EURCAD-op (binary)
+2025-06-11 10:18:33 | INFO |    - GBPCHF → GBPCHF-op (binary)
+2025-06-11 10:18:33 | INFO |    - GBPCHF → GBPCHF-op (binary)
+2025-06-11 10:20:55 | INFO | 🔄 Ciclo #310 - 2025-06-11 10:20:55
+2025-06-11 10:23:25 | INFO | 🔄 Ciclo #320 - 2025-06-11 10:23:25
+2025-06-11 10:25:55 | INFO | 🔄 Ciclo #330 - 2025-06-11 10:25:55
+2025-06-11 10:28:25 | INFO | 🔄 Ciclo #340 - 2025-06-11 10:28:25
+2025-06-11 10:30:55 | INFO | 🔄 Ciclo #350 - 2025-06-11 10:30:55
+2025-06-11 10:33:25 | INFO | 🔄 Ciclo #360 - 2025-06-11 10:33:25
+2025-06-11 10:35:56 | INFO | 🔄 Ciclo #370 - 2025-06-11 10:35:56
+2025-06-11 10:37:56 | INFO | 🟢 GBPCHF - Señal CALL (RSI: 65.28)
+2025-06-11 10:37:57 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-op), cantidad: $10,000.00
+2025-06-11 10:37:57 | WARNING | ⚠️ Error con GBPCHF-op: Cannot purchase an option (the asset is not available at the moment).
+2025-06-11 10:37:57 | INFO | 🔄 Buscando alternativa para GBPCHF...
+2025-06-11 10:38:01 | INFO | ✅ Cambiando GBPCHF de GBPCHF-op a GBPCHF-OTC (binary)
+2025-06-11 10:38:01 | INFO | 🔄 Reintentando con activo alternativo... (intento 2/2)
+2025-06-11 10:38:02 | INFO | 📈 Colocando CALL en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-11 10:38:02 | INFO | ✅ Orden colocada exitosamente. ID: 12733874100
+2025-06-11 10:38:02 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-11 10:38:11 | INFO | 📉 Nuevo mínimo: $570,173.10 (3.39% pérdida)
+2025-06-11 10:38:26 | INFO | 🔄 Ciclo #380 - 2025-06-11 10:38:26
+2025-06-11 10:40:56 | INFO | 🔄 Ciclo #390 - 2025-06-11 10:40:56
+2025-06-11 10:43:26 | INFO | 🔄 Ciclo #400 - 2025-06-11 10:43:26
+2025-06-11 10:43:26 | INFO | 📋 Resultado de orden 12733874100: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916191300, 'option_id': 12733874100, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749656282, 'open_time_millisecond': 1749656282837, 'expiration_time': 1749656580, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.109755, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749656282537, 'created_at': 1749656282538, 'updated_at': 1749656282979}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37553810591, 'id': '98d806b60ed6d6c34e7ddde9edb646ef', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12733874100, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749656282837, 'open_quote': 1.109755, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.109905, 'close_reason': 'win', 'close_time': 1749656580000, 'close_profit': 18500, 'close_profit_enrolled': 4.41, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10909785317, 'option_id': 12733874100, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 18500, 'win_enrolled_amount': 4.41, 'value': 1.109755, 'expiration_value': 1.109905, 'open_time': 1749656282, 'open_time_millisecond': 1749656282837, 'expiration_time': 1749656580, 'actual_expire': 1749656580, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749656282537, 'created_at': 1749656282538, 'updated_at': 1749656580225}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8915973715, 'option_id': 12733874100, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749656282, 'open_time_millisecond': 1749656282837, 'expiration_time': 1749656580, 'actual_expire': 1749656580, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.41, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.109755, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.109905, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-11 10:43:26 | INFO | ❌ GBPCHF - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-11 10:43:26 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 2
+2025-06-11 10:43:26 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 10:43:26 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 10:43:33 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 10:43:33 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 10:43:33 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 10:43:33 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 10:43:33 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 10:43:33 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 10:43:33 | INFO | 📋 Pares activos:
+2025-06-11 10:43:33 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 10:43:33 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 10:43:33 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 10:45:56 | INFO | 🔄 Ciclo #410 - 2025-06-11 10:45:56
+2025-06-11 10:48:26 | INFO | 🔄 Ciclo #420 - 2025-06-11 10:48:26
+2025-06-11 10:50:56 | INFO | 🔄 Ciclo #430 - 2025-06-11 10:50:56
+2025-06-11 10:53:26 | INFO | 🔄 Ciclo #440 - 2025-06-11 10:53:26
+2025-06-11 10:55:56 | INFO | 🔄 Ciclo #450 - 2025-06-11 10:55:56
+2025-06-11 10:58:26 | INFO | 🔄 Ciclo #460 - 2025-06-11 10:58:26
+2025-06-11 11:00:56 | INFO | 🔄 Ciclo #470 - 2025-06-11 11:00:56
+2025-06-11 11:03:26 | INFO | 🔄 Ciclo #480 - 2025-06-11 11:03:26
+2025-06-11 11:05:56 | INFO | 🔄 Ciclo #490 - 2025-06-11 11:05:56
+2025-06-11 11:08:26 | INFO | 🔄 Ciclo #500 - 2025-06-11 11:08:26
+2025-06-11 11:08:26 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 11:08:26 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 11:08:34 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 11:08:34 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 11:08:34 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 11:08:34 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:08:34 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:08:34 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 11:08:34 | INFO | 📋 Pares activos:
+2025-06-11 11:08:34 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 11:08:34 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 11:08:34 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 11:10:56 | INFO | 🔄 Ciclo #510 - 2025-06-11 11:10:56
+2025-06-11 11:13:26 | INFO | 🔄 Ciclo #520 - 2025-06-11 11:13:26
+2025-06-11 11:15:56 | INFO | 🔄 Ciclo #530 - 2025-06-11 11:15:56
+2025-06-11 11:18:26 | INFO | 🔄 Ciclo #540 - 2025-06-11 11:18:26
+2025-06-11 11:20:56 | INFO | 🔄 Ciclo #550 - 2025-06-11 11:20:56
+2025-06-11 11:23:26 | INFO | 🔄 Ciclo #560 - 2025-06-11 11:23:26
+2025-06-11 11:25:56 | INFO | 🔄 Ciclo #570 - 2025-06-11 11:25:56
+2025-06-11 11:28:26 | INFO | 🔄 Ciclo #580 - 2025-06-11 11:28:26
+2025-06-11 11:30:57 | INFO | 🔄 Ciclo #590 - 2025-06-11 11:30:57
+2025-06-11 11:33:27 | INFO | 🔄 Ciclo #600 - 2025-06-11 11:33:27
+2025-06-11 11:33:27 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 11:33:27 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 11:33:35 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 11:33:35 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 11:33:35 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 11:33:35 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:33:35 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:33:35 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 11:33:35 | INFO | 📋 Pares activos:
+2025-06-11 11:33:35 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 11:33:35 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 11:33:35 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 11:35:57 | INFO | 🔄 Ciclo #610 - 2025-06-11 11:35:57
+2025-06-11 11:38:27 | INFO | 🔄 Ciclo #620 - 2025-06-11 11:38:27
+2025-06-11 11:40:57 | INFO | 🔄 Ciclo #630 - 2025-06-11 11:40:57
+2025-06-11 11:43:27 | INFO | 🔄 Ciclo #640 - 2025-06-11 11:43:27
+2025-06-11 11:44:27 | INFO | 🟢 EURCAD - Señal CALL (RSI: 65.54)
+2025-06-11 11:44:28 | INFO | 📈 Colocando CALL en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-11 11:44:29 | INFO | ✅ Orden colocada exitosamente. ID: 12734095551
+2025-06-11 11:44:29 | INFO | 📝 Orden registrada para EURCAD
+2025-06-11 11:45:57 | INFO | 🔄 Ciclo #650 - 2025-06-11 11:45:57
+2025-06-11 11:48:27 | INFO | 🔄 Ciclo #660 - 2025-06-11 11:48:27
+2025-06-11 11:49:57 | INFO | 📋 Resultado de orden 12734095551: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916406066, 'option_id': 12734095551, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749660269, 'open_time_millisecond': 1749660269034, 'expiration_time': 1749660540, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.574825, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038, 'requested_at': 1749660268734, 'created_at': 1749660268734, 'updated_at': 1749660269113}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37555475443, 'id': '20cb5c7ccf887561ecdf7f4b4f14e44d', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12734095551, 'active_id': 2117, 'instrument_id': '2117', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749660269034, 'open_quote': 1.574825, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.571295, 'close_reason': 'loose', 'close_time': 1749660540000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10910216909, 'option_id': 12734095551, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2117, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'call', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.574825, 'expiration_value': 1.571295, 'open_time': 1749660269, 'open_time_millisecond': 1749660269034, 'expiration_time': 1749660540, 'actual_expire': 1749660540, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749660268734, 'created_at': 1749660268734, 'updated_at': 1749660540444}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8916186551, 'option_id': 12734095551, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749660269, 'open_time_millisecond': 1749660269034, 'expiration_time': 1749660540, 'actual_expire': 1749660540, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'call', 'value': 1.574825, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.571295, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038}}})
+2025-06-11 11:49:57 | INFO | ❌ EURCAD - CALL PERDIDA. Pérdida: $10,000.00
+2025-06-11 11:49:57 | INFO | 📊 EURCAD - Pérdidas consecutivas: 1
+2025-06-11 11:50:57 | INFO | 🔄 Ciclo #670 - 2025-06-11 11:50:57
+2025-06-11 11:53:27 | INFO | 🔄 Ciclo #680 - 2025-06-11 11:53:27
+2025-06-11 11:55:57 | INFO | 🔄 Ciclo #690 - 2025-06-11 11:55:57
+2025-06-11 11:58:27 | INFO | 🔄 Ciclo #700 - 2025-06-11 11:58:27
+2025-06-11 11:58:28 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 11:58:28 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 11:58:37 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 11:58:37 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 11:58:37 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 11:58:37 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 11:58:37 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 11:58:37 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 11:58:37 | INFO | 📋 Pares activos:
+2025-06-11 11:58:37 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 11:58:37 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 11:58:37 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 12:00:57 | INFO | 🔄 Ciclo #710 - 2025-06-11 12:00:57
+2025-06-11 12:03:27 | INFO | 🔄 Ciclo #720 - 2025-06-11 12:03:27
+2025-06-11 12:05:57 | INFO | 🔄 Ciclo #730 - 2025-06-11 12:05:57
+2025-06-11 12:08:27 | INFO | 🔄 Ciclo #740 - 2025-06-11 12:08:27
+2025-06-11 12:10:57 | INFO | 🔄 Ciclo #750 - 2025-06-11 12:10:57
+2025-06-11 12:13:27 | INFO | 🔄 Ciclo #760 - 2025-06-11 12:13:27
+2025-06-11 12:15:57 | INFO | 🔄 Ciclo #770 - 2025-06-11 12:15:57
+2025-06-11 12:18:27 | INFO | 🔄 Ciclo #780 - 2025-06-11 12:18:27
+2025-06-11 12:20:57 | INFO | 🔄 Ciclo #790 - 2025-06-11 12:20:57
+2025-06-11 12:23:28 | INFO | 🔄 Ciclo #800 - 2025-06-11 12:23:28
+2025-06-11 12:23:29 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 12:23:29 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 12:23:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 12:23:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 12:23:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 12:23:45 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 12:23:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 12:23:45 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 12:23:45 | INFO | 📋 Pares activos:
+2025-06-11 12:23:45 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 12:23:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 12:23:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 12:26:05 | INFO | 🔄 Ciclo #810 - 2025-06-11 12:26:05
+2025-06-11 12:28:35 | INFO | 🔄 Ciclo #820 - 2025-06-11 12:28:35
+2025-06-11 12:31:05 | INFO | 🔄 Ciclo #830 - 2025-06-11 12:31:05
+2025-06-11 12:33:35 | INFO | 🔄 Ciclo #840 - 2025-06-11 12:33:35
+2025-06-11 12:36:06 | INFO | 🔄 Ciclo #850 - 2025-06-11 12:36:06
+2025-06-11 12:38:36 | INFO | 🔄 Ciclo #860 - 2025-06-11 12:38:36
+2025-06-11 12:41:06 | INFO | 🔄 Ciclo #870 - 2025-06-11 12:41:06
+2025-06-11 12:43:36 | INFO | 🔄 Ciclo #880 - 2025-06-11 12:43:36
+2025-06-11 12:46:06 | INFO | 🔄 Ciclo #890 - 2025-06-11 12:46:06
+2025-06-11 12:48:36 | INFO | 🔄 Ciclo #900 - 2025-06-11 12:48:36
+2025-06-11 12:48:37 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 12:48:37 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 12:48:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 12:48:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 12:48:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 12:48:45 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 12:48:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 12:48:45 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 12:48:45 | INFO | 📋 Pares activos:
+2025-06-11 12:48:45 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 12:48:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 12:48:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 12:51:06 | INFO | 🔄 Ciclo #910 - 2025-06-11 12:51:06
+2025-06-11 12:53:36 | INFO | 🔄 Ciclo #920 - 2025-06-11 12:53:36
+2025-06-11 12:53:52 | INFO | 🔴 GBPCHF - Señal PUT (RSI: 34.48)
+2025-06-11 12:53:53 | INFO | 📈 Colocando PUT en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-11 12:53:53 | INFO | ✅ Orden colocada exitosamente. ID: 12734312675
+2025-06-11 12:53:53 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-11 12:54:06 | INFO | 📉 Nuevo mínimo: $568,673.10 (3.64% pérdida)
+2025-06-11 12:56:06 | INFO | 🔄 Ciclo #930 - 2025-06-11 12:56:06
+2025-06-11 12:58:36 | INFO | 🔄 Ciclo #940 - 2025-06-11 12:58:36
+2025-06-11 12:59:21 | INFO | 📋 Resultado de orden 12734312675: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916617618, 'option_id': 12734312675, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749664433, 'open_time_millisecond': 1749664433714, 'expiration_time': 1749664740, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.106415, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749664433414, 'created_at': 1749664433415, 'updated_at': 1749664433797}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37557057185, 'id': '286ee0e10e996074f9ca6a5e5a01f158', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12734312675, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749664433714, 'open_quote': 1.106415, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.106945, 'close_reason': 'loose', 'close_time': 1749664740000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10910645032, 'option_id': 12734312675, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'put', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.106415, 'expiration_value': 1.106945, 'open_time': 1749664433, 'open_time_millisecond': 1749664433714, 'expiration_time': 1749664740, 'actual_expire': 1749664740, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749664433414, 'created_at': 1749664433415, 'updated_at': 1749664740095}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8916397812, 'option_id': 12734312675, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749664433, 'open_time_millisecond': 1749664433714, 'expiration_time': 1749664740, 'actual_expire': 1749664740, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.106415, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.106945, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-11 12:59:21 | INFO | ❌ GBPCHF - PUT PERDIDA. Pérdida: $10,000.00
+2025-06-11 12:59:21 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 3
+2025-06-11 13:01:06 | INFO | 🔄 Ciclo #950 - 2025-06-11 13:01:06
+2025-06-11 13:03:22 | INFO | 🔴 EURCAD - Señal PUT (RSI: 34.81)
+2025-06-11 13:03:22 | INFO | 📈 Colocando PUT en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-11 13:03:23 | INFO | ✅ Orden colocada exitosamente. ID: 12734339343
+2025-06-11 13:03:23 | INFO | 📝 Orden registrada para EURCAD
+2025-06-11 13:03:36 | INFO | 🔄 Ciclo #960 - 2025-06-11 13:03:36
+2025-06-11 13:03:36 | INFO | 📉 Nuevo mínimo: $558,673.10 (5.34% pérdida)
+2025-06-11 13:06:06 | INFO | 🔄 Ciclo #970 - 2025-06-11 13:06:06
+2025-06-11 13:08:36 | INFO | 🔄 Ciclo #980 - 2025-06-11 13:08:36
+2025-06-11 13:08:51 | INFO | 📋 Resultado de orden 12734339343: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916643556, 'option_id': 12734339343, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749665003, 'open_time_millisecond': 1749665003217, 'expiration_time': 1749665280, 'amount': 10000, 'enrolled_amount': 2.39, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.565115, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038, 'requested_at': 1749665002917, 'created_at': 1749665002919, 'updated_at': 1749665003255}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37557314475, 'id': '0d424a9390ae5743cefd5d696d36c66f', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12734339343, 'active_id': 2117, 'instrument_id': '2117', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749665003217, 'open_quote': 1.565115, 'invest': 10000, 'invest_enrolled': 2.39, 'close_quote': 1.565695, 'close_reason': 'loose', 'close_time': 1749665280000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10910695888, 'option_id': 12734339343, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2117, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'put', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.39, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.565115, 'expiration_value': 1.565695, 'open_time': 1749665003, 'open_time_millisecond': 1749665003217, 'expiration_time': 1749665280, 'actual_expire': 1749665280, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749665002917, 'created_at': 1749665002919, 'updated_at': 1749665280646}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8916423713, 'option_id': 12734339343, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749665003, 'open_time_millisecond': 1749665003217, 'expiration_time': 1749665280, 'actual_expire': 1749665280, 'amount': 10000, 'enrolled_amount': 2.39, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.565115, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.565695, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038}}})
+2025-06-11 13:08:51 | INFO | ❌ EURCAD - PUT PERDIDA. Pérdida: $10,000.00
+2025-06-11 13:08:51 | INFO | 📊 EURCAD - Pérdidas consecutivas: 2
+2025-06-11 13:11:06 | INFO | 🔄 Ciclo #990 - 2025-06-11 13:11:06
+2025-06-11 13:13:36 | INFO | 🔄 Ciclo #1000 - 2025-06-11 13:13:36
+2025-06-11 13:13:36 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 13:13:36 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 13:13:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 13:13:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 13:13:45 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 13:13:45 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 13:13:45 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 13:13:45 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 13:13:45 | INFO | 📋 Pares activos:
+2025-06-11 13:13:45 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 13:13:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 13:13:45 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 13:16:06 | INFO | 🔄 Ciclo #1010 - 2025-06-11 13:16:06
+2025-06-11 13:18:36 | INFO | 🔄 Ciclo #1020 - 2025-06-11 13:18:36
+2025-06-11 13:21:06 | INFO | 🔄 Ciclo #1030 - 2025-06-11 13:21:06
+2025-06-11 13:23:36 | INFO | 🔄 Ciclo #1040 - 2025-06-11 13:23:36
+2025-06-11 13:26:06 | INFO | 🔄 Ciclo #1050 - 2025-06-11 13:26:06
+2025-06-11 13:28:37 | INFO | 🔄 Ciclo #1060 - 2025-06-11 13:28:37
+2025-06-11 13:31:07 | INFO | 🔄 Ciclo #1070 - 2025-06-11 13:31:07
+2025-06-11 13:33:37 | INFO | 🔄 Ciclo #1080 - 2025-06-11 13:33:37
+2025-06-11 13:36:07 | INFO | 🔄 Ciclo #1090 - 2025-06-11 13:36:07
+2025-06-11 13:38:37 | INFO | 🔄 Ciclo #1100 - 2025-06-11 13:38:37
+2025-06-11 13:38:37 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 13:38:37 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 13:38:46 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 13:38:46 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 13:38:46 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-11 13:38:46 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-11 13:38:46 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 13:38:46 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 13:38:46 | INFO | 📋 Pares activos:
+2025-06-11 13:38:46 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 13:38:46 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 13:38:46 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 13:41:07 | INFO | 🔄 Ciclo #1110 - 2025-06-11 13:41:07
+2025-06-11 13:43:37 | INFO | 🔄 Ciclo #1120 - 2025-06-11 13:43:37
+2025-06-11 13:46:07 | INFO | 🔄 Ciclo #1130 - 2025-06-11 13:46:07
+2025-06-11 13:48:37 | INFO | 🔄 Ciclo #1140 - 2025-06-11 13:48:37
+2025-06-11 13:51:07 | INFO | 🔄 Ciclo #1150 - 2025-06-11 13:51:07
+2025-06-11 13:53:37 | INFO | 🔄 Ciclo #1160 - 2025-06-11 13:53:37
+2025-06-11 13:54:08 | INFO | 🔴 GBPCHF - Señal PUT (RSI: 34.25)
+2025-06-11 13:54:09 | INFO | 📈 Colocando PUT en GBPCHF (GBPCHF-OTC), cantidad: $10,000.00
+2025-06-11 13:54:10 | INFO | ✅ Orden colocada exitosamente. ID: 12734482224
+2025-06-11 13:54:10 | INFO | 📝 Orden registrada para GBPCHF
+2025-06-11 13:54:23 | INFO | 📉 Nuevo mínimo: $548,673.10 (7.03% pérdida)
+2025-06-11 13:56:08 | INFO | 🔄 Ciclo #1170 - 2025-06-11 13:56:08
+2025-06-11 13:58:38 | INFO | 🔄 Ciclo #1180 - 2025-06-11 13:58:38
+2025-06-11 13:59:38 | INFO | 📋 Resultado de orden 12734482224: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916782473, 'option_id': 12734482224, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749668049, 'open_time_millisecond': 1749668049963, 'expiration_time': 1749668340, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.105295, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038, 'requested_at': 1749668049663, 'created_at': 1749668049664, 'updated_at': 1749668050188}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37558687623, 'id': '4427c4685434c3d75a69c9fdf9a252fb', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12734482224, 'active_id': 2115, 'instrument_id': '2115', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749668049963, 'open_quote': 1.105295, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.105205, 'close_reason': 'win', 'close_time': 1749668340000, 'close_profit': 18500, 'close_profit_enrolled': 4.4, 'pnl': 8500, 'pnl_realized': 8500, 'pnl_net': 8500, 'swap': 0, 'raw_event': {'index': 10910975221, 'option_id': 12734482224, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2115, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'put', 'result': 'win', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 18500, 'win_enrolled_amount': 4.4, 'value': 1.105295, 'expiration_value': 1.105205, 'open_time': 1749668049, 'open_time_millisecond': 1749668049963, 'expiration_time': 1749668340, 'actual_expire': 1749668340, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749668049663, 'created_at': 1749668049664, 'updated_at': 1749668340426}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8916561200, 'option_id': 12734482224, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749668049, 'open_time_millisecond': 1749668049963, 'expiration_time': 1749668340, 'actual_expire': 1749668340, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 18500, 'win_enrolled_amount': 4.4, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.105295, 'active': 'GBPCHF-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.105205, 'result': 'win', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2115, 'balance_id': 1212702038}}})
+2025-06-11 13:59:38 | INFO | ❌ GBPCHF - PUT PERDIDA. Pérdida: $10,000.00
+2025-06-11 13:59:38 | INFO | 📊 GBPCHF - Pérdidas consecutivas: 4
+2025-06-11 14:01:08 | INFO | 🔄 Ciclo #1190 - 2025-06-11 14:01:08
+2025-06-11 14:03:38 | INFO | 🔄 Ciclo #1200 - 2025-06-11 14:03:38
+2025-06-11 14:03:38 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 14:03:38 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 14:03:47 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 14:03:47 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 14:03:47 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:03:47 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:03:47 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 14:03:47 | INFO | 📋 Pares activos:
+2025-06-11 14:03:47 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 14:03:47 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:03:47 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:03:54 | INFO | 🔴 EURCAD - Señal PUT (RSI: 34.85)
+2025-06-11 14:03:54 | INFO | 📈 Colocando PUT en EURCAD (EURCAD-OTC), cantidad: $10,000.00
+2025-06-11 14:03:55 | INFO | ✅ Orden colocada exitosamente. ID: 12734505133
+2025-06-11 14:03:55 | INFO | 📝 Orden registrada para EURCAD
+2025-06-11 14:06:08 | INFO | 🔄 Ciclo #1210 - 2025-06-11 14:06:08
+2025-06-11 14:08:38 | INFO | 🔄 Ciclo #1220 - 2025-06-11 14:08:38
+2025-06-11 14:09:23 | INFO | 📋 Resultado de orden 12734505133: defaultdict(<class 'dict'>, {'option-opened': {'name': 'option-opened', 'microserviceName': 'binary-options', 'msg': {'index': 8916804806, 'option_id': 12734505133, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749668635, 'open_time_millisecond': 1749668635144, 'expiration_time': 1749668940, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.561895, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038, 'requested_at': 1749668634844, 'created_at': 1749668634845, 'updated_at': 1749668635184}}, 'position-changed': {'name': 'position-changed', 'microserviceName': 'portfolio', 'msg': {'version': 37558898171, 'id': '733643d776f107139ead0d393d66963f', 'user_id': 177395922, 'user_balance_id': 1212702038, 'platform_id': 82, 'external_id': 12734505133, 'active_id': 2117, 'instrument_id': '2117', 'source': 'binary-options', 'instrument_type': 'turbo-option', 'status': 'closed', 'open_time': 1749668635144, 'open_quote': 1.561895, 'invest': 10000, 'invest_enrolled': 2.38, 'close_quote': 1.564175, 'close_reason': 'loose', 'close_time': 1749668940000, 'close_profit': 0, 'close_profit_enrolled': 0, 'pnl': -10000, 'pnl_realized': -10000, 'pnl_net': -10000, 'swap': 0, 'raw_event': {'index': 10911023603, 'option_id': 12734505133, 'user_id': 177395922, 'balance_id': 1212702038, 'option_type_id': 3, 'option_type': 'turbo', 'active_id': 2117, 'platform_id': 82, 'profit_percent': 185, 'user_balance_type': 1, 'currency': 'COP', 'direction': 'put', 'result': 'loose', 'amount': 10000, 'enrolled_amount': 2.38, 'profit_amount': 0, 'win_enrolled_amount': 0, 'value': 1.561895, 'expiration_value': 1.564175, 'open_time': 1749668635, 'open_time_millisecond': 1749668635144, 'expiration_time': 1749668940, 'actual_expire': 1749668940, 'user_group_id': 193, 'rollover_option_id': None, 'rollover_commission_operation_id': None, 'rollover_commission_amount': None, 'rollover_commission_enrolled_amount': None, 'rollover_initial_commission_amount': None, 'is_rolled_over': None, 'requested_at': 1749668634844, 'created_at': 1749668634845, 'updated_at': 1749668940731}}}, 'option-closed': {'name': 'option-closed', 'microserviceName': 'binary-options', 'msg': {'index': 8916585760, 'option_id': 12734505133, 'user_id': 177395922, 'user_group_id': 193, 'open_time': 1749668635, 'open_time_millisecond': 1749668635144, 'expiration_time': 1749668940, 'actual_expire': 1749668940, 'amount': 10000, 'enrolled_amount': 2.38, 'currency': 'COP', 'profit_amount': 0, 'win_enrolled_amount': 0, 'profit_percent': 185, 'option_type': 'turbo', 'option_type_id': 3, 'direction': 'put', 'value': 1.561895, 'active': 'EURCAD-OTC', 'params': None, 'platform_id': 82, 'is_demo': False, 'aff_id': 0, 'balance_type_id': 1, 'robot_id': None, 'tournament_id': None, 'expiration_value': 1.564175, 'result': 'loose', 'bonus_rate': 1, 'inout_diff': 0, 'aff_track': '', 'country_id': 46, 'balance': 0, 'client_platform_id': 82, 'is_can_trade': True, 'currency_mask': 'CO$ %s', 'active_id': 2117, 'balance_id': 1212702038}}})
+2025-06-11 14:09:23 | INFO | ❌ EURCAD - PUT PERDIDA. Pérdida: $10,000.00
+2025-06-11 14:09:23 | INFO | 📊 EURCAD - Pérdidas consecutivas: 3
+2025-06-11 14:11:08 | INFO | 🔄 Ciclo #1230 - 2025-06-11 14:11:08
+2025-06-11 14:13:38 | INFO | 🔄 Ciclo #1240 - 2025-06-11 14:13:38
+2025-06-11 14:16:08 | INFO | 🔄 Ciclo #1250 - 2025-06-11 14:16:08
+2025-06-11 14:18:38 | INFO | 🔄 Ciclo #1260 - 2025-06-11 14:18:38
+2025-06-11 14:21:08 | INFO | 🔄 Ciclo #1270 - 2025-06-11 14:21:08
+2025-06-11 14:23:38 | INFO | 🔄 Ciclo #1280 - 2025-06-11 14:23:38
+2025-06-11 14:26:09 | INFO | 🔄 Ciclo #1290 - 2025-06-11 14:26:09
+2025-06-11 14:28:39 | INFO | 🔄 Ciclo #1300 - 2025-06-11 14:28:39
+2025-06-11 14:28:39 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 14:28:39 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 14:28:48 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 14:28:48 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 14:28:48 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:28:48 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:28:48 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 14:28:48 | INFO | 📋 Pares activos:
+2025-06-11 14:28:48 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 14:28:48 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:28:48 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:31:09 | INFO | 🔄 Ciclo #1310 - 2025-06-11 14:31:09
+2025-06-11 14:33:39 | INFO | 🔄 Ciclo #1320 - 2025-06-11 14:33:39
+2025-06-11 14:36:09 | INFO | 🔄 Ciclo #1330 - 2025-06-11 14:36:09
+2025-06-11 14:38:39 | INFO | 🔄 Ciclo #1340 - 2025-06-11 14:38:39
+2025-06-11 14:39:26 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-11 14:39:26 | INFO | 🏁 Finalizando estrategia...
+2025-06-11 14:39:27 | INFO | ============================================================
+2025-06-11 14:39:27 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-11 14:39:27 | INFO | ============================================================
+2025-06-11 14:39:27 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-11 14:39:27 | INFO | 💰 Capital Inicial: $590,173.10
+2025-06-11 14:39:27 | INFO | 💰 Balance Final: $557,173.10
+2025-06-11 14:39:27 | INFO | 📈 Rendimiento Total: -5.59%
+2025-06-11 14:39:27 | INFO | 🎯 Total Operaciones: 7
+2025-06-11 14:39:27 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-11 14:39:27 | INFO | ❌ Derrotas: 7 (100.0%)
+2025-06-11 14:39:27 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-11 14:39:27 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-11 14:39:27 | INFO | 💵 Beneficio Neto: $-70,000.00
+2025-06-11 14:39:27 | INFO | 📉 Capital Mínimo: $548,673.10
+2025-06-11 14:39:27 | INFO | 
+📊 Estadísticas por Par:
+2025-06-11 14:39:27 | INFO | EURCAD: 3 trades | 0W/3L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 3
+2025-06-11 14:39:27 | INFO | GBPCHF: 4 trades | 0W/4L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 4
+2025-06-11 14:39:27 | INFO | GBPCHF: 4 trades | 0W/4L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 4
+2025-06-11 14:39:27 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-11 14:39:27 | INFO | ============================================================
+2025-06-11 14:39:27 | INFO | 👋 Estrategia finalizada
+2025-06-11 14:39:27 | INFO | 👋 Programa finalizado
+2025-06-11 14:40:07 | INFO | ============================================================
+2025-06-11 14:40:07 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-11 14:40:07 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-11 14:40:07 | INFO | ============================================================
+2025-06-11 14:40:07 | INFO | 📅 Fecha/Hora: 2025-06-11 14:40:07
+2025-06-11 14:40:07 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-11 14:40:07 | INFO | ============================================================
+2025-06-11 14:40:07 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-11 14:40:07 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-11 14:40:07 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-11 14:40:07 | INFO | ============================================================
+2025-06-11 14:40:07 | INFO | 🚀 Inicializando estrategia...
+2025-06-11 14:40:07 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-11 14:40:07 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-11 14:40:07 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-11 14:40:07 | INFO | 🔗 Conectando a IQ Option...
+2025-06-11 14:40:10 | INFO | ✅ Conexión exitosa
+2025-06-11 14:40:10 | INFO | 💰 Balance actual: $557,173.10
+2025-06-11 14:40:11 | INFO | 💰 Capital inicial: $557,173.10
+2025-06-11 14:40:11 | INFO | ✅ Estado cargado desde 2025-06-11T14:39:26.892435
+2025-06-11 14:40:11 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 14:40:18 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 14:40:18 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 14:40:18 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 14:40:18 | INFO | 📋 Pares activos:
+2025-06-11 14:40:18 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 14:40:18 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 14:40:18 | INFO | 🎯 Iniciando operaciones...
+2025-06-11 14:40:18 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-11 14:40:18 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-11 14:40:18 | INFO | 📊 Configuración: 3 pares disponibles
+2025-06-11 14:40:18 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-11 14:40:18 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-11 14:40:18 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-11 14:42:34 | INFO | 🔄 Ciclo #10 - 2025-06-11 14:42:34
+2025-06-11 14:45:04 | INFO | 🔄 Ciclo #20 - 2025-06-11 14:45:04
+2025-06-11 14:47:34 | INFO | 🔄 Ciclo #30 - 2025-06-11 14:47:34
+2025-06-11 14:50:04 | INFO | 🔄 Ciclo #40 - 2025-06-11 14:50:04
+2025-06-11 14:52:34 | INFO | 🔄 Ciclo #50 - 2025-06-11 14:52:34
+2025-06-11 14:55:04 | INFO | 🔄 Ciclo #60 - 2025-06-11 14:55:04
+2025-06-11 14:57:34 | INFO | 🔄 Ciclo #70 - 2025-06-11 14:57:34
+2025-06-11 15:00:04 | INFO | 🔄 Ciclo #80 - 2025-06-11 15:00:04
+2025-06-11 15:02:34 | INFO | 🔄 Ciclo #90 - 2025-06-11 15:02:34
+2025-06-11 15:05:04 | INFO | 🔄 Ciclo #100 - 2025-06-11 15:05:04
+2025-06-11 15:05:05 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 15:05:05 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 15:05:13 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 15:05:13 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 15:05:13 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 15:05:13 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 15:05:13 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 15:05:13 | INFO | 📋 Pares activos:
+2025-06-11 15:05:13 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 15:05:13 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 15:05:13 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 15:07:34 | INFO | 🔄 Ciclo #110 - 2025-06-11 15:07:34
+2025-06-11 15:10:04 | INFO | 🔄 Ciclo #120 - 2025-06-11 15:10:04
+2025-06-11 15:12:34 | INFO | 🔄 Ciclo #130 - 2025-06-11 15:12:34
+2025-06-11 15:15:04 | INFO | 🔄 Ciclo #140 - 2025-06-11 15:15:04
+2025-06-11 15:17:34 | INFO | 🔄 Ciclo #150 - 2025-06-11 15:17:34
+2025-06-11 15:20:04 | INFO | 🔄 Ciclo #160 - 2025-06-11 15:20:04
+2025-06-11 15:22:34 | INFO | 🔄 Ciclo #170 - 2025-06-11 15:22:34
+2025-06-11 15:25:04 | INFO | 🔄 Ciclo #180 - 2025-06-11 15:25:04
+2025-06-11 15:27:34 | INFO | 🔄 Ciclo #190 - 2025-06-11 15:27:34
+2025-06-11 15:30:04 | INFO | 🔄 Ciclo #200 - 2025-06-11 15:30:04
+2025-06-11 15:30:06 | INFO | 🔄 Re-verificando pares disponibles...
+2025-06-11 15:30:06 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 15:30:14 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 15:30:14 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 15:30:14 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 15:30:14 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 15:30:14 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 15:30:14 | INFO | 📋 Pares activos:
+2025-06-11 15:30:14 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 15:30:14 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 15:30:14 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 15:32:35 | INFO | 🔄 Ciclo #210 - 2025-06-11 15:32:35
+2025-06-11 15:34:46 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-11 15:34:46 | INFO | 🏁 Finalizando estrategia...
+2025-06-11 15:34:46 | INFO | ============================================================
+2025-06-11 15:34:46 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-11 15:34:46 | INFO | ============================================================
+2025-06-11 15:34:46 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-11 15:34:46 | INFO | 💰 Capital Inicial: $557,173.10
+2025-06-11 15:34:46 | INFO | 💰 Balance Final: $557,173.10
+2025-06-11 15:34:46 | INFO | 📈 Rendimiento Total: 0.00%
+2025-06-11 15:34:46 | INFO | 🎯 Total Operaciones: 7
+2025-06-11 15:34:46 | INFO | ✅ Victorias: 0 (0.0%)
+2025-06-11 15:34:46 | INFO | ❌ Derrotas: 7 (100.0%)
+2025-06-11 15:34:46 | INFO | 🟡 Empates: 0 (0.0%)
+2025-06-11 15:34:46 | INFO | 📊 Tasa de Éxito (sin empates): 0.00%
+2025-06-11 15:34:46 | INFO | 💵 Beneficio Neto: $-70,000.00
+2025-06-11 15:34:46 | INFO | 📉 Capital Mínimo: $548,673.10
+2025-06-11 15:34:46 | INFO | 
+📊 Estadísticas por Par:
+2025-06-11 15:34:46 | INFO | EURCAD: 3 trades | 0W/3L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 3
+2025-06-11 15:34:46 | INFO | GBPCHF: 4 trades | 0W/4L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 4
+2025-06-11 15:34:46 | INFO | GBPCHF: 4 trades | 0W/4L/0T | 0.0% éxito | Pérdidas consecutivas actuales: 4
+2025-06-11 15:34:46 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-11 15:34:46 | INFO | ============================================================
+2025-06-11 15:34:46 | INFO | 👋 Estrategia finalizada
+2025-06-11 15:34:46 | INFO | 👋 Programa finalizado
+2025-06-11 16:20:13 | INFO | ============================================================
+2025-06-11 16:20:13 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-11 16:20:13 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-11 16:20:13 | INFO | ============================================================
+2025-06-11 16:20:13 | INFO | 📅 Fecha/Hora: 2025-06-11 16:20:13
+2025-06-11 16:20:13 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-11 16:20:13 | INFO | ============================================================
+2025-06-11 16:20:13 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-11 16:20:13 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-11 16:20:13 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-11 16:20:13 | INFO | ============================================================
+2025-06-11 16:20:13 | INFO | 🚀 Inicializando estrategia...
+2025-06-11 16:20:13 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-11 16:20:13 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-11 16:20:13 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-11 16:20:13 | INFO | 🔗 Conectando a IQ Option...
+2025-06-11 16:20:15 | INFO | ✅ Conexión exitosa
+2025-06-11 16:20:15 | INFO | 💰 Balance actual: $557,173.10
+2025-06-11 16:20:16 | INFO | 💰 Capital inicial: $557,173.10
+2025-06-11 16:20:16 | INFO | 📂 No hay archivo de estado previo
+2025-06-11 16:20:16 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 16:20:24 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 16:20:24 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 16:20:24 | INFO | 📋 Pares activos:
+2025-06-11 16:20:24 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 16:20:24 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | 🧪 MODO PRUEBA - Verificando configuración...
+2025-06-11 16:20:24 | INFO | ✅ Conexión exitosa
+2025-06-11 16:20:24 | INFO | 💰 Balance: $557,173.10
+2025-06-11 16:20:24 | INFO | 📊 Pares disponibles: 3
+2025-06-11 16:20:24 | INFO | 📋 Pares activos:
+2025-06-11 16:20:24 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 16:20:24 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:20:24 | INFO | ✅ Prueba completada exitosamente
+2025-06-11 16:20:24 | INFO | 👋 Programa finalizado
+2025-06-11 16:21:15 | INFO | ============================================================
+2025-06-11 16:21:15 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-11 16:21:15 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-11 16:21:15 | INFO | ============================================================
+2025-06-11 16:21:15 | INFO | 📅 Fecha/Hora: 2025-06-11 16:21:15
+2025-06-11 16:21:15 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-11 16:21:15 | INFO | ============================================================
+2025-06-11 16:21:15 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-11 16:21:15 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-11 16:21:15 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-11 16:21:15 | INFO | ============================================================
+2025-06-11 16:21:15 | INFO | 🚀 Inicializando estrategia...
+2025-06-11 16:21:15 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-11 16:21:15 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-11 16:21:15 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-11 16:21:15 | INFO | 🔗 Conectando a IQ Option...
+2025-06-11 16:21:17 | INFO | ✅ Conexión exitosa
+2025-06-11 16:21:18 | INFO | 💰 Balance actual: $557,173.10
+2025-06-11 16:21:18 | INFO | 💰 Capital inicial: $557,173.10
+2025-06-11 16:21:18 | INFO | 📂 No hay archivo de estado previo
+2025-06-11 16:21:18 | INFO | 🔍 Verificando pares disponibles...
+2025-06-11 16:21:30 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-11 16:21:30 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-11 16:21:30 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO | 📊 Total pares disponibles: 3
+2025-06-11 16:21:30 | INFO | 📋 Pares activos:
+2025-06-11 16:21:30 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-11 16:21:30 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-11 16:21:30 | INFO | 🔍 Verificando orden 12734482224...
+2025-06-11 16:21:30 | INFO | 🔍 PRUEBA: Verificando orden 12734482224
+2025-06-11 16:21:30 | INFO | 📋 Método 1: get_async_order
+2025-06-11 16:21:30 | INFO |    No se obtuvo resultado
+2025-06-11 16:21:30 | INFO | 📋 Método 2: check_win_v3
+2025-06-11 16:21:45 | ERROR | ⚠️ TIMEOUT: check_win_v3 tardó más de 15s
+2025-06-11 16:21:45 | INFO |    Resultado: None
+2025-06-11 16:21:45 | INFO | 📋 Método 3: check_win_v4
+2025-06-11 16:22:00 | ERROR | ⚠️ TIMEOUT: check_win_v4 tardó más de 15s
+2025-06-11 16:22:00 | INFO |    Resultado: None
+2025-06-11 16:22:00 | INFO | ✅ Verificación completada.
+2025-06-11 16:22:00 | INFO | 👋 Programa finalizado
+2025-06-12 09:53:03 | INFO | ============================================================
+2025-06-12 09:53:03 | INFO |    ESTRATEGIA RSI MULTI-DIVISA PARA IQ OPTION
+2025-06-12 09:53:03 | INFO |    ⚡ LÓGICA INVERTIDA ⚡
+2025-06-12 09:53:03 | INFO | ============================================================
+2025-06-12 09:53:03 | INFO | 📅 Fecha/Hora: 2025-06-12 09:53:03
+2025-06-12 09:53:03 | INFO | 📧 Usuario: pab***ipe@me.com
+2025-06-12 09:53:03 | INFO | ============================================================
+2025-06-12 09:53:03 | INFO | ⚠️ IMPORTANTE: Esta estrategia usa lógica INVERTIDA
+2025-06-12 09:53:03 | INFO |    - PUT cuando RSI ≤ 35 (sobreventa)
+2025-06-12 09:53:03 | INFO |    - CALL cuando RSI ≥ 65 (sobrecompra)
+2025-06-12 09:53:03 | INFO | ============================================================
+2025-06-12 09:53:03 | INFO | 🚀 Inicializando estrategia...
+2025-06-12 09:53:03 | INFO | 🎯 INICIANDO ESTRATEGIA RSI MULTI-DIVISA (LÓGICA INVERTIDA)
+2025-06-12 09:53:03 | INFO | 📊 Configuración: PUT <= 35, CALL >= 65
+2025-06-12 09:53:03 | INFO | ⚡ LÓGICA INVERTIDA: PUT en sobreventa, CALL en sobrecompra
+2025-06-12 09:53:03 | INFO | 🔗 Conectando a IQ Option...
+2025-06-12 09:53:05 | INFO | ✅ Conexión exitosa
+2025-06-12 09:53:06 | INFO | 💰 Balance actual: $12,284.55
+2025-06-12 09:53:06 | INFO | 💰 Capital inicial: $12,284.55
+2025-06-12 09:53:06 | INFO | 📂 No hay archivo de estado previo
+2025-06-12 09:53:06 | INFO | 🔍 Verificando pares disponibles...
+2025-06-12 09:53:14 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (turbo)
+2025-06-12 09:53:14 | INFO | ✅ EURCAD: Encontrado como EURCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ EURCAD: Encontrado como EURCAD-op (binary)
+2025-06-12 09:53:14 | INFO | ✅ EURCAD: Seleccionado EURCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (turbo)
+2025-06-12 09:53:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCHF: Encontrado como GBPCHF-op (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCHF: Seleccionado GBPCHF-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ EURJPY: Encontrado como EURJPY-op (turbo)
+2025-06-12 09:53:14 | INFO | ✅ EURJPY: Encontrado como EURJPY-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ EURJPY: Encontrado como EURJPY-op (binary)
+2025-06-12 09:53:14 | INFO | ✅ EURJPY: Seleccionado EURJPY-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPAUD: Encontrado como GBPAUD-OTC (turbo)
+2025-06-12 09:53:14 | INFO | ✅ GBPAUD: Encontrado como GBPAUD-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPAUD: Encontrado como GBPAUD-op (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPAUD: Seleccionado GBPAUD-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCAD: Encontrado como GBPCAD-OTC (turbo)
+2025-06-12 09:53:14 | INFO | ✅ GBPCAD: Encontrado como GBPCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCAD: Encontrado como GBPCAD-op (binary)
+2025-06-12 09:53:14 | INFO | ✅ GBPCAD: Seleccionado GBPCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO | 📊 Total pares disponibles: 5
+2025-06-12 09:53:14 | INFO | 📋 Pares activos:
+2025-06-12 09:53:14 | INFO |    - EURCAD → EURCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO |    - GBPCHF → GBPCHF-OTC (binary)
+2025-06-12 09:53:14 | INFO |    - EURJPY → EURJPY-OTC (binary)
+2025-06-12 09:53:14 | INFO |    - GBPAUD → GBPAUD-OTC (binary)
+2025-06-12 09:53:14 | INFO |    - GBPCAD → GBPCAD-OTC (binary)
+2025-06-12 09:53:14 | INFO | 🎯 Iniciando operaciones...
+2025-06-12 09:53:14 | INFO | ℹ️ Presiona Ctrl+C para detener la estrategia
+2025-06-12 09:53:14 | INFO | 🚀 Iniciando estrategia RSI Multi-Divisa (LÓGICA INVERTIDA)
+2025-06-12 09:53:14 | INFO | 📊 Configuración: 5 pares disponibles
+2025-06-12 09:53:14 | INFO | ⚡ IMPORTANTE: PUT en RSI≤35 (sobreventa), CALL en RSI≥65 (sobrecompra)
+2025-06-12 09:53:14 | INFO | ⏰ Tiempo entre señales: 60 minutos (1 hora)
+2025-06-12 09:53:14 | INFO | 🔄 Sin bloqueo por pérdidas consecutivas
+2025-06-12 09:55:07 | INFO | ⏹️ Estrategia detenida por el usuario
+2025-06-12 09:55:07 | INFO | 🏁 Finalizando estrategia...
+2025-06-12 09:55:07 | INFO | ============================================================
+2025-06-12 09:55:07 | INFO | 📊 RESUMEN DE LA ESTRATEGIA RSI (LÓGICA INVERTIDA)
+2025-06-12 09:55:07 | INFO | ============================================================
+2025-06-12 09:55:07 | INFO | ⚡ Estrategia: PUT en sobreventa (RSI≤35), CALL en sobrecompra (RSI≥65)
+2025-06-12 09:55:07 | INFO | 💰 Capital Inicial: $12,284.55
+2025-06-12 09:55:07 | INFO | 💰 Balance Final: $12,284.55
+2025-06-12 09:55:07 | INFO | 📈 Rendimiento Total: 0.00%
+2025-06-12 09:55:07 | INFO | 🎯 Total Operaciones: 0
+2025-06-12 09:55:07 | INFO | 💵 Beneficio Neto: $0.00
+2025-06-12 09:55:07 | INFO | 📉 Capital Mínimo: $12,284.55
+2025-06-12 09:55:07 | INFO | 
+📊 Estadísticas por Par:
+2025-06-12 09:55:07 | INFO | 
+📅 Rendimiento Mensual:
+2025-06-12 09:55:07 | INFO | ============================================================
+2025-06-12 09:55:07 | INFO | 👋 Estrategia finalizada
+2025-06-12 09:55:07 | INFO | 👋 Programa finalizado

@@ -22,6 +22,10 @@ def main():
     parser.add_argument('--test', action='store_true', help='Ejecutar en modo prueba')
     parser.add_argument('--debug-assets', action='store_true', 
                        help='Mostrar todos los activos forex disponibles y salir')
+    parser.add_argument('--check-order', type=str, 
+                       help='Verificar el resultado de una orden específica por ID')
+    parser.add_argument('--check-recent', action='store_true',
+                       help='Verificar resultados de órdenes recientes')
     
     args = parser.parse_args()
     
@@ -66,6 +70,20 @@ def main():
             logger.info("🔍 MODO DEBUG: Mostrando todos los activos forex disponibles...")
             strategy.debug_show_all_forex_assets()
             logger.info("✅ Debug completado. Revisa los logs para ver todos los activos.")
+            return
+        
+        # Si queremos verificar una orden específica
+        if args.check_order:
+            logger.info(f"🔍 Verificando orden {args.check_order}...")
+            strategy.test_check_order_result(args.check_order)
+            logger.info("✅ Verificación completada.")
+            return
+        
+        # Si queremos verificar órdenes recientes
+        if args.check_recent:
+            logger.info("🔍 Verificando órdenes recientes...")
+            strategy.check_recent_orders_results()
+            logger.info("✅ Verificación completada.")
             return
         
         if args.test:

@@ -51,14 +51,9 @@ LOG_FILE = "iqoption_strategy.log"
 # Configuración de caché y timeouts
 OPCODE_CACHE_TTL = 3600  # 1 hora
 ASSET_STATUS_CACHE_TTL = 300  # 5 minutos
-API_TIMEOUT = 10  # Timeout para llamadas API en segundos
+API_TIMEOUT = 15  # Timeout para llamadas API en segundos
 MAX_FREEZE_COUNT = 5  # Número máximo de timeouts antes de reiniciar
 
 # Configuración de guardado de estado
 STATE_FILE = "strategy_state.json"
 SAVE_STATE_INTERVAL = 30  # Guardar estado cada N ciclos
-
-# Configuración de debugging (NUEVO)
-USE_POSITION_HISTORY = True  # Usar historial de posiciones en lugar de check_win_v3
-POSITION_HISTORY_TIMEOUT = 5  # Timeout para consultas de historial
-DEBUG_ORDER_RESULTS = True  # Logging detallado de resultados de órdenes

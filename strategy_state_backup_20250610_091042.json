@@ -1,0 +1,32 @@
+{
+    "timestamp": "2025-06-10T09:10:12.913358",
+    "strategy_mode": "CALL_PUT",
+    "active_options": {},
+    "last_signal_time": {
+        "CADCHF": "2025-06-09T20:19:41.988957",
+        "EURCAD": "2025-06-09T20:19:43.423700",
+        "NZDUSD": "2025-06-09T20:19:49.549329"
+    },
+    "consecutive_losses": {},
+    "daily_lockouts": {},
+    "wins": {},
+    "losses": {
+        "CADCHF": 1,
+        "EURCAD": 1
+    },
+    "ties": {},
+    "total_profit": -20000.0,
+    "daily_profit": -20000,
+    "monthly_profits": {
+        "2025-06": 0.0
+    },
+    "monthly_starting_capital": {
+        "2025-06": 596173.1
+    },
+    "monthly_stop_loss": false,
+    "stop_loss_triggered_month": null,
+    "absolute_stop_loss_activated": false,
+    "min_capital": 576173.1,
+    "last_date": "2025-06-10",
+    "current_month": "2025-06"
+}

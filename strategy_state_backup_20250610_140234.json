@@ -1,0 +1,32 @@
+{
+    "timestamp": "2025-06-10T14:02:15.322797",
+    "strategy_mode": "CALL_PUT",
+    "active_options": {},
+    "last_signal_time": {
+        "GBPCHF": "2025-06-10T13:16:49.954659",
+        "EURCAD": "2025-06-10T12:27:48.578228"
+    },
+    "consecutive_losses": {
+        "GBPCHF": 2,
+        "EURCAD": 1
+    },
+    "daily_lockouts": {},
+    "wins": {},
+    "losses": {
+        "GBPCHF": 2,
+        "EURCAD": 1
+    },
+    "ties": {},
+    "total_profit": -30000.0,
+    "daily_profit": -30000.0,
+    "monthly_profits": {},
+    "monthly_starting_capital": {
+        "2025-06": 564673.1
+    },
+    "monthly_stop_loss": false,
+    "stop_loss_triggered_month": null,
+    "absolute_stop_loss_activated": false,
+    "min_capital": 554673.1,
+    "last_date": "2025-06-10",
+    "current_month": "2025-06"
+}
